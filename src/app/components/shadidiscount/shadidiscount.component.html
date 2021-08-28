@@ -1,0 +1,42 @@
+
+           <!-- Custom Block Area Start -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+   
+                   
+                        <div class="hot-deal-area">
+                            <div class="section-title">
+                                <h2><span>Por esta semana</span> grandes descuentos</h2>
+                            </div>
+                           <owl-carousel-o [options]="customOptions">
+          <ng-template carouselSlide *ngFor="let tix of tixs" class="glide__slide">
+            <div class="glide__slide" style="padding-left: 10px;padding-right: 10px;">
+                <div class="cnt-box cnt-box-info boxed text-uppercase">
+                            <div class="extra-field">Precio: {{tix.precio}}</div>
+                            <a routerLink="/tix-detail/{{tix.id}}" class="img-box"><img src="{{tix.images[0]}}" alt="" /></a>
+                            <div class="caption">
+                                
+                                <h2>{{tix.productName}}</h2>
+                                <div class="cnt-info">
+                                    <div><span>Dias</span><span>{{tix.cantD}}</span></div>
+                                    <div><span>Personas</span><span>{{tix.capacidad}}</span></div>
+                                    <div><span>Dificultad</span><span>{{tix.dificulty}}</span></div>
+                                </div>
+                                <p>{{tix.description}}
+                                </p>
+                                <div class="bottom-info">
+                                    {{tix.address}}
+                                </div>
+                            </div>
+                        </div>
+            </div>
+          </ng-template>  
+      </owl-carousel-o>
+                        </div>
+                        <!-- Banner Area Start -->
+                        
+                   
+                   
+                        
+                    

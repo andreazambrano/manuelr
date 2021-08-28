@@ -1,0 +1,2242 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html class="no-js g1-off-outside lt-ie10 lt-ie9" id="ie8" lang="en-US"
+ xmlns:fb="http://ogp.me/ns/fb#"><![endif]-->
+<!--[if IE 9]>
+<html class="no-js g1-off-outside lt-ie10" id="ie9" lang="en-US"
+ xmlns:fb="http://ogp.me/ns/fb#"><![endif]-->
+<!--[if !IE]><!-->
+<html class="no-js g1-off-outside" lang="en-US"
+ xmlns:fb="http://ogp.me/ns/fb#"><!--<![endif]-->
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="profile" href="http://gmpg.org/xfn/11"/>
+	<link rel="pingback" href="http://themezhub.com/xmlrpc.php"/>
+
+	<title>ThemezHub - We Help To Build a Better &amp; Smart Web</title>
+
+<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, height=device-height, width=device-width" />
+
+<!-- This site is optimized with the Yoast SEO plugin v11.8 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="ThemezHub is a great place for free html templates, web design articles, tutorials, freebies and wp themes. ThemezHub help you to build a better &amp; smart web."/>
+<link rel="canonical" href="https://themezhub.com/" />
+<link rel="next" href="https://themezhub.com/page/2/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="ThemezHub - We Help To Build a Better &amp; Smart Web" />
+<meta property="og:description" content="ThemezHub is a great place for free html templates, web design articles, tutorials, freebies and wp themes. ThemezHub help you to build a better &amp; smart web." />
+<meta property="og:url" content="https://themezhub.com/" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="ThemezHub is a great place for free html templates, web design articles, tutorials, freebies and wp themes. ThemezHub help you to build a better &amp; smart web." />
+<meta name="twitter:title" content="ThemezHub - We Help To Build a Better &amp; Smart Web" />
+<meta name="twitter:site" content="@themezhub77" />
+<meta name="google-site-verification" content="xCLet27sNk1Szsm711GtJsoEcPu29Ytok_0F0FGgbUY" />
+<script type='application/ld+json' class='yoast-schema-graph yoast-schema-graph--main'>{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://themezhub.com/#website","url":"https://themezhub.com/","name":"","potentialAction":{"@type":"SearchAction","target":"https://themezhub.com/?s={search_term_string}","query-input":"required name=search_term_string"}},{"@type":"CollectionPage","@id":"https://themezhub.com/#webpage","url":"https://themezhub.com/","inLanguage":"en-US","name":"ThemezHub - We Help To Build a Better &amp; Smart Web","isPartOf":{"@id":"https://themezhub.com/#website"},"description":"ThemezHub is a great place for free html templates, web design articles, tutorials, freebies and wp themes. ThemezHub help you to build a better & smart web."}]}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="https://themezhub.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Comments Feed" href="https://themezhub.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/themezhub.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.2"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-notification-bars-css'  href='http://themezhub.com/wp-content/plugins/wp-notification-bars/public/css/wp-notification-bars-public.css?ver=1.0.5' type='text/css' media='all' />
+<link rel='stylesheet' id='adace-style-css'  href='http://themezhub.com/wp-content/plugins/ad-ace/assets/css/style.min.css?ver=1.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='shoppable-images-css-css'  href='http://themezhub.com/wp-content/plugins/ad-ace/assets/css/shoppable-images-front.min.css?ver=1.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://themezhub.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='mashsb-styles-css'  href='http://themezhub.com/wp-content/plugins/mashsharer/assets/css/mashsb.min.css?ver=3.6.7' type='text/css' media='all' />
+<style id='mashsb-styles-inline-css' type='text/css'>
+.mashsb-count {color:#cccccc;}@media only screen and (min-width:568px){.mashsb-buttons a {min-width: 177px;}}
+</style>
+<link rel='stylesheet' id='jquery-magnific-popup-css'  href='http://themezhub.com/wp-content/plugins/snax/assets/js/jquery.magnific-popup/magnific-popup.css?ver=5.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='snax-css'  href='http://themezhub.com/wp-content/plugins/snax/css/snax.min.css?ver=1.32' type='text/css' media='all' />
+<link rel='stylesheet' id='snax-frontend-submission-css'  href='http://themezhub.com/wp-content/plugins/snax/css/snax-frontend-submission.min.css?ver=1.32' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='http://themezhub.com/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.6-78496d1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://themezhub.com/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=5.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-tag-it-css'  href='http://themezhub.com/wp-content/plugins/snax/assets/js/jquery.tagit/css/jquery.tagit.css?ver=2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-tag-it-theme-css'  href='http://themezhub.com/wp-content/plugins/snax/assets/js/jquery.tagit/css/tagit.ui-zendesk.css?ver=2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='snax-froala-editor-css'  href='http://themezhub.com/wp-content/plugins/snax/assets/js/froala/css/froala_editor.min.css?ver=2.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='snax-froala-style-css'  href='http://themezhub.com/wp-content/plugins/snax/assets/js/froala/css/froala_style.min.css?ver=2.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='snax-froala-quick-insert-css'  href='http://themezhub.com/wp-content/plugins/snax/assets/js/froala/css/plugins/quick_insert.min.css?ver=2.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='snax-froala-char-counter-css'  href='http://themezhub.com/wp-content/plugins/snax/assets/js/froala/css/plugins/char_counter.min.css?ver=2.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='snax-froala-line-breaker-css'  href='http://themezhub.com/wp-content/plugins/snax/assets/js/froala/css/plugins/line_breaker.min.css?ver=2.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='http://themezhub.com/wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.min.css?ver=5.7' type='text/css' media='all' />
+<link rel='stylesheet' id='wyr-main-css'  href='http://themezhub.com/wp-content/plugins/whats-your-reaction/css/main.min.css?ver=1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wordpress-popular-posts-css-css'  href='http://themezhub.com/wp-content/plugins/wordpress-popular-posts/public/css/wpp.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='tt-easy-google-fonts-css'  href='http://fonts.googleapis.com/css?family=Poppins%3Aregular%2C600%2C500%7CMontserrat%3A500&#038;subset=latin%2Call&#038;ver=5.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='g1-main-css'  href='http://themezhub.com/wp-content/themes/bimber/css/7.0.4/styles/app/all-light.min.css?ver=7.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='bimber-google-fonts-css'  href='http://fonts.googleapis.com/css?family=Work+Sans%3A400%2C300%2C500%2C600%2C700%2C800%2C900&amp;subset=latin%2Clatin-ext&amp;ver=7.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='bimber-style-css'  href='http://themezhub.com/wp-content/themes/bimber-child-theme/style.css?ver=5.2.2' type='text/css' media='screen' />
+<link rel='stylesheet' id='bimber-snax-extra-css'  href='http://themezhub.com/wp-content/themes/bimber/css/7.0.4/styles/app/snax-extra-light.min.css?ver=7.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='bimber-vc-css'  href='http://themezhub.com/wp-content/themes/bimber/css/7.0.4/styles/app/vc-light.min.css?ver=7.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='bimber-mashshare-css'  href='http://themezhub.com/wp-content/themes/bimber/css/7.0.4/styles/app/mashshare-light.min.css?ver=7.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='wpgdprc.css-css'  href='http://themezhub.com/wp-content/plugins/wp-gdpr-compliance/assets/css/front.css?ver=1558538489' type='text/css' media='all' />
+<style id='wpgdprc.css-inline-css' type='text/css'>
+
+            div.wpgdprc .wpgdprc-switch .wpgdprc-switch-inner:before { content: 'Yes'; }
+            div.wpgdprc .wpgdprc-switch .wpgdprc-switch-inner:after { content: 'No'; }
+        
+</style>
+<script type='text/javascript' src='http://themezhub.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/plugins/ad-ace/assets/js/slideup.js?ver=1.3.1'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/plugins/ad-ace/includes/shoppable-images/assets/js/shoppable-images-front.js?ver=1.3.1'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/plugins/ad-ace/assets/js/coupons.js?ver=1.3.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mashsb = {"shares":"0","round_shares":"1","animate_shares":"0","dynamic_buttons":"0","share_url":"https:\/\/themezhub.com\/15-best-places-to-get-free-paid-vector-designs-images-and-icons\/","title":"15+Best+Places+To+Get+Free+%26+Paid+Vector+Designs%2C+Images+And+Icons","image":"https:\/\/themezhub.com\/wp-content\/uploads\/vectors-resouces.jpg","desc":"What you see is what is get. This implies and calls for a catchy appearance,  so as to get the most out of it. In this digital era, most organizations have officially built up \u2026","hashtag":"@themezhub77","subscribe":"content","subscribe_url":"","activestatus":"1","singular":"0","twitter_popup":"1","refresh":"0","nonce":"fe72180b6b","postid":"","servertime":"1565875144","ajaxurl":"https:\/\/themezhub.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/plugins/mashsharer/assets/js/mashsb.min.js?ver=3.6.7'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-includes/js/plupload/moxie.min.js?ver=1.3.5'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-includes/js/plupload/plupload.min.js?ver=2.1.9'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpp_params = {"sampling_active":"0","sampling_rate":"100","ajax_url":"https:\/\/themezhub.com\/wp-json\/wordpress-popular-posts\/v1\/popular-posts\/","ID":"","token":"5a141a97b0","debug":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/plugins/wordpress-popular-posts/public/js/wpp-4.2.0.min.js?ver=4.2.2'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/plugins/wp-notification-bars/public/js/wp-notification-bars-public.js?ver=1.0.5'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/themes/bimber/js/modernizr/modernizr-custom.min.js?ver=3.3.0'></script>
+<link rel='https://api.w.org/' href='https://themezhub.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://themezhub.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://themezhub.com/wp-includes/wlwmanifest.xml" /> 
+	<style>
+	@font-face {
+		font-family: "bimber";
+					src:url("http://themezhub.com/wp-content/themes/bimber/css/7.0.4/bunchy/fonts/bimber.eot");
+			src:url("http://themezhub.com/wp-content/themes/bimber/css/7.0.4/bunchy/fonts/bimber.eot?#iefix") format("embedded-opentype"),
+			url("http://themezhub.com/wp-content/themes/bimber/css/7.0.4/bunchy/fonts/bimber.woff") format("woff"),
+			url("http://themezhub.com/wp-content/themes/bimber/css/7.0.4/bunchy/fonts/bimber.ttf") format("truetype"),
+			url("http://themezhub.com/wp-content/themes/bimber/css/7.0.4/bunchy/fonts/bimber.svg#bimber") format("svg");
+						font-weight: normal;
+		font-style: normal;
+		font-display: block;
+	}
+	</style>
+		<style type="text/css" media="screen" id="g1-dynamic-styles">
+		body.g1-layout-boxed .g1-body-inner {
+background-color: #e6e6e6;
+}
+
+.g1-layout-boxed .g1-row-layout-page {
+max-width: 1212px;
+}
+
+/* Global Color Scheme */
+a,
+.entry-title > a:hover,
+.entry-meta a:hover,
+.menu-item > a:hover,
+.current-menu-item > a,
+.mtm-drop-expanded > a,
+.g1-nav-single-prev > a > span:before,
+.g1-nav-single-next > a > span:after,
+.g1-nav-single-prev > a:hover > strong,
+.g1-nav-single-prev > a:hover > span,
+.g1-nav-single-next > a:hover > strong,
+.g1-nav-single-next > a:hover > span,
+.mashsb-count,
+.archive-title:before,
+.snax .snax-item-title > a:hover {
+color: #005bea;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.g1-button-solid,
+.g1-button-solid:hover,
+.g1-arrow-solid,
+.author-link,
+.author-info .author-link,
+.g1-box-icon,
+.wyr-reaction:hover .wyr-reaction-button,
+.wyr-reaction-voted .wyr-reaction-button,
+.wyr-reaction .wyr-reaction-bar {
+border-color: #005bea;
+background-color: #005bea;
+color: #ffffff;
+}
+
+.entry-counter:before {
+border-color: #005bea;
+background-color: #005bea;
+color: #ffffff;
+}
+
+
+
+.g1-quick-nav-tabs .menu-item-type-g1-trending > a,
+.entry-flag-trending {
+border-color: #005bea;
+background-color: #005bea;
+color: #ffffff;
+	background-image: -webkit-linear-gradient(to bottom right, #005bea, #11b719);
+	background-image:    -moz-linear-gradient(to bottom right, #005bea, #11b719);
+	background-image:      -o-linear-gradient(to bottom right, #005bea, #11b719);
+	background-image:         linear-gradient(to bottom right, #005bea, #11b719);
+}
+
+.g1-quick-nav-tabs .menu-item-type-g1-hot > a,
+.entry-flag-hot {
+border-color: #005bea;
+background-color: #005bea;
+color: #ffffff;
+	background-image: -webkit-linear-gradient(to bottom right, #005bea, #11b719);
+	background-image:    -moz-linear-gradient(to bottom right, #005bea, #11b719);
+	background-image:      -o-linear-gradient(to bottom right, #005bea, #11b719);
+	background-image:         linear-gradient(to bottom right, #005bea, #11b719);
+}
+
+.g1-quick-nav-tabs .menu-item-type-g1-popular > a,
+.entry-flag-popular {
+border-color: #005bea;
+background-color: #005bea;
+color: #ffffff;
+	background-image: -webkit-linear-gradient(to bottom right, #005bea, #11b719);
+	background-image:    -moz-linear-gradient(to bottom right, #005bea, #11b719);
+	background-image:      -o-linear-gradient(to bottom right, #005bea, #11b719);
+	background-image:         linear-gradient(to bottom right, #005bea, #11b719);
+}
+
+.entry-flag-members_only {
+border-color: #057dff;
+background-color: #057dff;
+color: #ffffff;
+	background-image: -webkit-linear-gradient(to bottom right, #057dff, #f840a7);
+	background-image:    -moz-linear-gradient(to bottom right, #057dff, #f840a7);
+	background-image:      -o-linear-gradient(to bottom right, #057dff, #f840a7);
+	background-image:         linear-gradient(to bottom right, #057dff, #f840a7);
+}
+
+.entry-flag-coupon {
+border-color: #11b719;
+background-color: #11b719;
+color: #ffffff;
+}
+
+
+
+	.entry-categories .entry-category {
+		color: #005bea;
+	}
+	.entry-categories .entry-category:hover {
+		color: #ffffff;
+	}
+
+
+
+
+
+
+
+
+
+.member-header .mycred-my-rank:after {
+	content:"Rank";
+}
+.snax-wpsl-gdpr-consent{
+	font-weight:300;
+}
+@-webkit-keyframes g1-flash {
+	from,
+	50%,
+	to {
+	  opacity: 1;
+	}
+
+	25%,
+	75% {
+	  opacity: 0;
+	}
+}
+
+@keyframes g1-flash {
+	from,
+	50%,
+	to {
+	  opacity: 1;
+	}
+
+	25%,
+	75% {
+	  opacity: 0;
+	}
+}
+.snax-wpsl-gdpr-consent-blink{
+	-webkit-animation: g1-flash 0.5s 2 linear;
+	animation: g1-flash 0.5s 2 linear;
+}
+.wp-social-login-provider-list a{
+	opacity:0.5;
+	pointer-events:none;
+}
+.wp-social-login-provider-list-active a{
+	opacity:1;
+	pointer-events:unset;
+}
+/*customizer_preview_margins*/
+
+
+
+
+@media only screen and ( min-width: 801px ) {
+	.g1-hb-row-normal  .g1-id ,
+	.g1-header .g1-id {
+		margin-top: 18px;
+		margin-bottom: 16px;
+	}
+
+	.g1-hb-row-normal  .g1-quick-nav ,
+	.g1-header .g1-quick-nav {
+		margin-top: 32px;
+		margin-bottom: 14px;
+	}
+}
+
+
+.g1-hb-row-mobile  .g1-id ,
+.g1-header .g1-id {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.g1-hb-row-normal  .g1-primary-nav {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*customizer_preview_margins_end*/
+
+.g1-header .menu-item > a,
+.g1-header .g1-hamburger,
+.g1-header .g1-drop-toggle,
+.g1-header .g1-socials-item-link {
+color: #000000;
+}
+
+.g1-header .menu-item:hover > a,
+.g1-header .current-menu-item > a,
+.g1-header .menu-item-object-post_tag > a:before,
+.g1-header .g1-socials-item-link:hover {
+color: #ff0036;
+}
+
+.g1-header > .g1-row-background {
+	
+
+	background-color: #ffffff;
+
+	}
+
+.g1-header .g1-link-toggle {
+color: #ffffff;
+}
+
+.g1-header .sub-menu .menu-item:hover > a,
+.g1-header .sub-menu .current-menu-item > a,
+.g1-header .sub-menu .current-menu-ancestor > a {
+color: #005bea;
+}
+
+
+
+	/*customizer_preview_ax_row*/
+
+	:root {
+		--g1-hba-itxt-color:#505e78;
+		--g1-hba-atxt-color:#005bea;
+		--g1-hba-bg-color:#ffffff;
+		--g1-hba-border-color:#e9e9e9;
+	}
+
+	.g1-hb-row-a .menu-item > a,
+	.g1-hb-row-a .g1-hamburger,
+	.g1-hb-row-a .g1-drop-toggle,
+	.g1-hb-row-a .g1-socials-item-link{
+		color:#505e78;
+		color:var(--g1-hba-itxt-color);
+	}
+
+	.g1-hb-row-a .g1-row-background {
+					border-bottom: 1px solid  #e9e9e9;
+			border-color: #e9e9e9;
+			border-color:var(--g1-hba-border-color);
+		
+
+		background-color: #ffffff;
+		background-color: var(--g1-hba-bg-color);
+
+			}
+
+	.g1-hb-row-a .menu-item:hover > a,
+	.g1-hb-row-a .current-menu-item > a,
+	.g1-hb-row-a .current-menu-ancestor > a,
+	.g1-hb-row-a .menu-item-object-post_tag > a:before,
+	.g1-hb-row-a .g1-socials-item-link:hover {
+		color:#005bea;
+		color:var(--g1-hba-atxt-color);
+	}
+
+	.g1-hb-row-a .g1-drop-toggle-badge,
+	.g1-hb-row-a .snax-button-create,
+	.g1-hb-row-a .snax-button-create:hover {
+		border-color: #000000;
+		background-color: #000000;
+		color: #ffffff;
+	}
+	/*customizer_preview_a_row_end*/
+
+	.g1-skinmode {
+		--g1-hba-itxt-color:#ffffff;
+		--g1-hba-atxt-color:#808080;
+		--g1-hba-bg-color:#000000;
+		--g1-hba-border-color:#1a1a1a;
+	}
+	/*customizer_preview_bx_row*/
+
+	:root {
+		--g1-hbb-itxt-color:#505e78;
+		--g1-hbb-atxt-color:#005bea;
+		--g1-hbb-bg-color:#ffffff;
+		--g1-hbb-border-color:#ff0000;
+	}
+
+	.g1-hb-row-b .menu-item > a,
+	.g1-hb-row-b .g1-hamburger,
+	.g1-hb-row-b .g1-drop-toggle,
+	.g1-hb-row-b .g1-socials-item-link{
+		color:#505e78;
+		color:var(--g1-hbb-itxt-color);
+	}
+
+	.g1-hb-row-b .g1-row-background {
+		
+
+		background-color: #ffffff;
+		background-color: var(--g1-hbb-bg-color);
+
+			}
+
+	.g1-hb-row-b .menu-item:hover > a,
+	.g1-hb-row-b .current-menu-item > a,
+	.g1-hb-row-b .current-menu-ancestor > a,
+	.g1-hb-row-b .menu-item-object-post_tag > a:before,
+	.g1-hb-row-b .g1-socials-item-link:hover {
+		color:#005bea;
+		color:var(--g1-hbb-atxt-color);
+	}
+
+	.g1-hb-row-b .g1-drop-toggle-badge,
+	.g1-hb-row-b .snax-button-create,
+	.g1-hb-row-b .snax-button-create:hover {
+		border-color: #000000;
+		background-color: #000000;
+		color: #ffffff;
+	}
+	/*customizer_preview_b_row_end*/
+
+	.g1-skinmode {
+		--g1-hbb-itxt-color:#ffffff;
+		--g1-hbb-atxt-color:#808080;
+		--g1-hbb-bg-color:#000000;
+		--g1-hbb-border-color:#1a1a1a;
+	}
+	/*customizer_preview_cx_row*/
+
+	:root {
+		--g1-hbc-itxt-color:#505e78;
+		--g1-hbc-atxt-color:#005bea;
+		--g1-hbc-bg-color:#ffffff;
+		--g1-hbc-border-color:#e9e9e9;
+	}
+
+	.g1-hb-row-c .menu-item > a,
+	.g1-hb-row-c .g1-hamburger,
+	.g1-hb-row-c .g1-drop-toggle,
+	.g1-hb-row-c .g1-socials-item-link{
+		color:#505e78;
+		color:var(--g1-hbc-itxt-color);
+	}
+
+	.g1-hb-row-c .g1-row-background {
+					border-bottom: 1px solid  #e9e9e9;
+			border-color: #e9e9e9;
+			border-color:var(--g1-hbc-border-color);
+		
+
+		background-color: #ffffff;
+		background-color: var(--g1-hbc-bg-color);
+
+			}
+
+	.g1-hb-row-c .menu-item:hover > a,
+	.g1-hb-row-c .current-menu-item > a,
+	.g1-hb-row-c .current-menu-ancestor > a,
+	.g1-hb-row-c .menu-item-object-post_tag > a:before,
+	.g1-hb-row-c .g1-socials-item-link:hover {
+		color:#005bea;
+		color:var(--g1-hbc-atxt-color);
+	}
+
+	.g1-hb-row-c .g1-drop-toggle-badge,
+	.g1-hb-row-c .snax-button-create,
+	.g1-hb-row-c .snax-button-create:hover {
+		border-color: #000000;
+		background-color: #000000;
+		color: #ffffff;
+	}
+	/*customizer_preview_c_row_end*/
+
+	.g1-skinmode {
+		--g1-hbc-itxt-color:#ffffff;
+		--g1-hbc-atxt-color:#808080;
+		--g1-hbc-bg-color:#000000;
+		--g1-hbc-border-color:#1a1a1a;
+	}
+
+:root {
+	--g1-canvas-itxt-color:#ffffff;
+	--g1-canvas-atxt-color:#ffffff;
+	--g1-canvas-bg-color:#057dff;
+}
+
+/*customizer_preview_canvas*/
+.g1-canvas-content,
+.g1-canvas-toggle,
+.g1-canvas-content .menu-item > a,
+.g1-canvas-content .g1-hamburger,
+.g1-canvas-content .g1-drop-toggle,
+.g1-canvas-content .g1-socials-item-link{
+	color:#ffffff;
+	color:var(--g1-canvas-itxt-color);
+}
+
+.g1-canvas-content .menu-item:hover > a,
+.g1-canvas-content .current-menu-item > a,
+.g1-canvas-content .current-menu-ancestor > a,
+.g1-canvas-content .menu-item-object-post_tag > a:before,
+.g1-canvas-content .g1-socials-item-link:hover {
+	color:#ffffff;
+	color:var(--g1-canvas-atxt-color);
+}
+
+.g1-canvas-global {
+	background-color:#057dff;
+	background-color:var(--g1-canvas-bg-color);
+
+			background-image: -webkit-linear-gradient(to bottom, #057dff, #057dff);
+		background-image:    -moz-linear-gradient(to bottom, #057dff, #057dff);
+		background-image:      -o-linear-gradient(to bottom, #057dff, #057dff);
+		background-image:         linear-gradient(to bottom, #057dff, #057dff);
+	}
+
+.g1-canvas-background {
+				opacity: 1;
+}
+
+.g1-canvas-content .snax-button-create {
+	border-color: #000000;
+	background-color: #000000;
+	color: #ffffff;
+}
+/*customizer_preview_canvas_end*/
+
+.g1-skinmode {
+	--g1-canvas-itxt-color:#ffffff;
+	--g1-canvas-atxt-color:#ff0036;
+	--g1-canvas-bg-color:#000000;
+}
+
+
+:root {
+	--g1-submenu-bg-color: #ffffff;
+	--g1-submenu-rtxt-color: #505e78;
+	--g1-submenu-atxt-color: #005bea;
+}
+
+/*customizer_preview_submenu*/
+.g1-hb-row .sub-menu {
+border-color: #ffffff;
+border-color: var(--g1-submenu-bg-color);
+background-color: #ffffff;
+background-color: var(--g1-submenu-bg-color);
+}
+
+.g1-hb-row .sub-menu .menu-item > a {
+color: #505e78;
+color: var(--g1-submenu-rtxt-color);
+}
+
+.g1-hb-row .g1-link-toggle {
+color:#ffffff;
+color:var(--g1-submenu-bg-color);
+}
+
+.g1-hb-row .sub-menu .menu-item:hover > a,
+.g1-hb-row .sub-menu .current-menu-item > a,
+.g1-hb-row .sub-menu .current-menu-ancestor > a {
+color: #005bea;
+color: var(--g1-submenu-atxt-color);
+}
+/*customizer_preview_submenu_row_end*/
+
+.g1-skinmode {
+	--g1-submenu-bg-color: #000000;
+	--g1-submenu-rtxt-color: #999999;
+	--g1-submenu-atxt-color: #ff0036;
+}
+
+
+
+.g1-header-simplified > .g1-row-background {
+	background-color:#ffffff;
+	background-color:var(--g1-hbb-bg-color, #ffffff);
+}
+
+:root {
+--g1-footer-itxt-color:#ffffff;
+--g1-footer-rtxt-color:#7d8b9a;
+--g1-footer-mtxt-color:#7d8b9a;
+--g1-footer-atxt-color:#005bea;
+--g1-footer-bg-color:#19232e;
+}
+
+
+/* Prefooter Theme Area */
+.g1-prefooter > .g1-row-background,
+.g1-prefooter .g1-current-background {
+	background-color:#19232e;
+	background-color:var(--g1-footer-bg-color);
+}
+
+.g1-prefooter h1,
+.g1-prefooter h2,
+.g1-prefooter h3,
+.g1-prefooter h4,
+.g1-prefooter h5,
+.g1-prefooter h6,
+.g1-prefooter .g1-mega,
+.g1-prefooter .g1-alpha,
+.g1-prefooter .g1-beta,
+.g1-prefooter .g1-gamma,
+.g1-prefooter .g1-delta,
+.g1-prefooter .g1-epsilon,
+.g1-prefooter .g1-zeta,
+.g1-prefooter blockquote,
+.g1-prefooter .widget_recent_entries a,
+.g1-prefooter .widget_archive a,
+.g1-prefooter .widget_categories a,
+.g1-prefooter .widget_meta a,
+.g1-prefooter .widget_pages a,
+.g1-prefooter .widget_recent_comments a,
+.g1-prefooter .widget_nav_menu .menu a {
+color:#ffffff;
+color:var(--g1-footer-itxt-color);
+}
+
+.g1-prefooter {
+color:#7d8b9a;
+color:var(--g1-footer-rtxt-color);
+}
+
+.g1-prefooter .entry-meta {
+color:#7d8b9a;
+color:var(--g1-footer-mtxt-color);
+}
+
+.g1-prefooter input,
+.g1-prefooter select,
+.g1-prefooter textarea {
+border-color: #3d5570;
+}
+
+.g1-prefooter input[type="submit"],
+.g1-prefooter input[type="reset"],
+.g1-prefooter input[type="button"],
+.g1-prefooter button,
+.g1-prefooter .g1-button-solid,
+.g1-prefooter .g1-button-solid:hover,
+.g1-prefooter .g1-box-icon {
+border-color: #005bea;
+background-color: #005bea;
+color: #ffffff;
+}
+
+.g1-prefooter .g1-button-simple {
+	border-color: #ffffff;
+	color: #ffffff;
+}
+
+
+/* Footer Theme Area */
+.g1-footer > .g1-row-background,
+.g1-footer .g1-current-background {
+background-color:#19232e;
+background-color:var(--g1-footer-bg-color);
+}
+
+
+.g1-footer {
+color:#7d8b9a;
+color:var(--g1-footer-rtxt-color);
+}
+
+.g1-footer-text {
+color: #7d8b9a;
+color:var(--g1-footer-mtxt-color);
+}
+
+.g1-footer a:hover,
+.g1-footer-nav a:hover {
+color:#005bea;
+color:var(--g1-footer-atxt-color);
+}
+
+
+
+.g1-row.g1-socials-section{
+background-color: #1e2a38;
+}
+
+
+.g1-newsletter-as-row>.g1-row-background{
+background-color: #005bea;
+}
+
+
+/*customizer_preview_footer*/
+/*customizer_preview_footer_end*/
+
+
+.g1-skinmode {
+--g1-footer-itxt-color:#ffffff;
+--g1-footer-rtxt-color:#999999;
+--g1-footer-mtxt-color:#666666;
+--g1-footer-atxt-color:#ff0036;
+--g1-footer-bg-color:#000000;
+}
+.g1-dark { color: rgba(255, 255, 255, 0.8); }
+
+.g1-dark h1,
+.g1-dark h2,
+.g1-dark h3,
+.g1-dark h4,
+.g1-dark h5,
+.g1-dark h6,
+.g1-dark .g1-mega,
+.g1-dark .g1-alpha,
+.g1-dark .g1-beta,
+.g1-dark .g1-gamma,
+.g1-dark .g1-delta,
+.g1-dark .g1-epsilon,
+.g1-dark .g1-zeta {
+	color: #fff;
+}
+
+
+
+.g1-dark .g1-meta { color: rgba(255, 255, 255, 0.6); }
+.g1-dark .g1-meta a { color: rgba(255, 255, 255, 0.8); }
+.g1-dark .g1-meta a:hover { color: rgba(255, 255, 255, 1); }
+
+.g1-dark .archive-title:before {
+	color: inherit;
+}
+
+
+.g1-dark [type=input],
+.g1-dark [type=email],
+.g1-dark select {
+	border-color: rgba(255,255,255, 0.15);
+}
+
+.g1-dark [type=submit] {
+	border-color: #fff;
+	background-color: #fff;
+	color: #1a1a1a;
+}
+
+.g1-dark .g1-button-solid {
+	border-color: #fff;
+	background-color: #fff;
+	color: #1a1a1a;
+}
+
+.g1-dark .g1-button-simple {
+	border-color: #fff;
+	color: #fff;
+}
+
+.g1-dark .g1-newsletter-avatar {
+	background-color: #fff;
+	color: #1a1a1a;
+}
+
+
+
+	</style>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-90857698-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-90857698-1');
+</script>
+<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://themezhub.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><meta name="g1:switch-skin-css" content="http://themezhub.com/wp-content/themes/bimber/css/7.0.4/styles/mode-dark.min.css" />	<script>if("undefined"!=typeof localStorage){var skinItemId=document.getElementsByName("g1:skin-item-id");skinItemId=skinItemId.length>0?skinItemId[0].getAttribute("content"):"g1_skin",window.g1SwitchSkin=function(e,t){if(e){var n=document.getElementById("g1-switch-skin-css");if(n){n.parentNode.removeChild(n),document.documentElement.classList.remove("g1-skinmode");try{localStorage.removeItem(skinItemId)}catch(e){}}else{t?document.write('<link id="g1-switch-skin-css" rel="stylesheet" type="text/css" media="all" href="http://themezhub.com/'+document.getElementsByName("g1:switch-skin-css")[0].getAttribute("content")+'" />'):((n=document.createElement("link")).id="g1-switch-skin-css",n.href=document.getElementsByName("g1:switch-skin-css")[0].getAttribute("content"),n.rel="stylesheet",n.media="all",document.head.appendChild(n)),document.documentElement.classList.add("g1-skinmode");try{localStorage.setItem(skinItemId,e)}catch(e){}}}};try{var mode=localStorage.getItem(skinItemId);window.g1SwitchSkin(mode,!0)}catch(e){}}</script>
+		<script>if("undefined"!=typeof localStorage){var nsfwItemId=document.getElementsByName("g1:nsfw-item-id");nsfwItemId=nsfwItemId.length>0?nsfwItemId[0].getAttribute("content"):"g1_nsfw_off",window.g1SwitchNSFW=function(e){e?(localStorage.setItem(nsfwItemId,1),document.documentElement.classList.add("g1-nsfw-off")):(localStorage.removeItem(nsfwItemId),document.documentElement.classList.remove("g1-nsfw-off"))};try{var nsfwmode=localStorage.getItem(nsfwItemId);window.g1SwitchNSFW(nsfwmode)}catch(e){}}</script>
+			<style type="text/css" id="wp-custom-css">
+			.demo-down {
+    display: table;
+}
+.custom-html-widget p {
+    line-height: 1.6;
+}
+.g1-prefooter .adace-linklist-with-images-csstodo a {
+    border-color: #19232e;
+}
+.premium-box {
+    padding: 0 12px;
+}
+.premium-box img {
+    border-radius: 6px;
+    border: 1px solid #e8edf5;
+    margin-top: 15px;
+}
+strong{
+	color:#19232e;
+}
+.premium-box .vc_column-inner {
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(62,28,131,0.1);
+    margin-bottom: 2rem;
+}
+.premium-box .vc_custom_heading {
+    padding: 0 1.4rem;
+}
+.demo-down br {
+    display:none;
+}
+a.btn-demo {
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: #ffffff;
+    background: #FF9800;
+    display: inline-block;
+}
+.wpcf7-form-control {
+    width: 100%;
+    height: 52px;
+}
+.entry-featured-media .g1-nsfw, .entry-featured-media img {
+    border-radius: 6px 6px 0px 0px;
+}
+
+.g1-hb-row .g1-drop .g1-socials-item-link {
+    color: #6c7b96;
+}
+ul.mks_themeforest_widget_ul {
+    margin-left: 0;
+}
+a.btn-down {
+    background: #11b719;
+    padding: 10px 20px;
+    margin: 0 10px 0 0;
+    color: #ffffff;
+    border-radius: 3px;
+    display: inline-block;
+}
+.entry-tpl-grid {
+    width: 100%;
+    position: relative;
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0px 5px 10px 0px rgba(130,136,184,0.2);
+	-webkit-box-shadow: 0px 5px 10px 0px rgba(130,136,184,0.2);
+}
+.entry-tpl-grid .entry-body {
+    padding: 15px;
+}
+a.download-link {
+    background: #125fb9;
+    color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 2px;
+}
+.live-demo{
+    border-radius: 2px;
+    padding: 15px 20px;
+    color: #ffffff;
+    background: #02b162;
+}
+.g1-hb-row .sub-menu .menu-item > a {
+    color: #505e78;
+    padding: 16px 15px;
+    border-bottom: 1px solid #eceff3;
+    font-weight: 500;
+    font-size: 14px;
+}
+.g1-dropable .menu-item-g1-standard .sub-menu {
+    padding: 0;
+}
+.g1-body-inner .g1-primary-nav-menu>.menu-item>a {
+    padding: 7px 20px;
+    line-height: 16px;
+}
+.adace-linklist-with-images-csstodo a img {
+    max-height: initial;
+    border-radius: 4px;
+}
+.adace-linklist-with-images-csstodo ul.transparent a {
+    padding: 0;
+    opacity: 1;
+    margin-bottom: 10px;
+}		</style>
+		<style id="tt-easy-google-font-styles" type="text/css">p { }
+h1 { }
+h2 { }
+h3 { }
+h4 { }
+h5 { }
+h6 { }
+body, input, select, textarea { font-family: 'Poppins'; font-style: normal; font-weight: 400; line-height: 1.8; }
+.g1-giga { }
+.g1-mega { font-family: 'Poppins'; font-style: normal; font-weight: 600; }
+h1, .g1-alpha { font-family: 'Poppins'; font-style: normal; font-weight: 600; }
+h2, .g1-beta { font-family: 'Poppins'; font-style: normal; font-weight: 600; }
+h3, .g1-gamma { font-family: 'Poppins'; font-style: normal; font-weight: 600; margin-bottom: 10px; }
+h4, .g1-delta { font-family: 'Poppins'; font-style: normal; font-weight: 600; margin-bottom: 10px; }
+h5, .g1-epsilon { font-family: 'Poppins'; font-style: normal; font-weight: 500; }
+h6, .g1-zeta { }
+.g1-gamma-3rd { }
+.g1-delta-3rd { }
+.g1-meta { }
+.g1-primary-nav-menu > .menu-item > a { font-family: 'Montserrat'; font-style: normal; font-weight: 500; }
+.sub-menu .menu-item > a { }
+input[type=submit], input[type=reset], input[type=button], button, .g1-button, .g1-arrow { font-family: 'Poppins'; font-style: normal; font-weight: 500; }
+.g1-tab, .item-list-tabs a { }
+blockquote { }
+</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+
+<body class="home blog wp-embed-responsive snax-hoverable g1-layout-stretched g1-hoverable g1-has-mobile-logo g1-sidebar-normal wpb-js-composer js-comp-ver-5.7 vc_responsive" itemscope itemtype="http://schema.org/WebPage">
+
+<div class="g1-body-inner">
+
+	<div id="page">
+		
+
+		
+
+						<div class="g1-sticky-top-wrapper g1-hb-row-1">
+				<div class="g1-row g1-row-layout-page g1-hb-row g1-hb-row-normal g1-hb-row-b g1-hb-row-1 g1-hb-boxed g1-hb-sticky-on g1-hb-shadow-off">
+			<div class="g1-row-inner">
+				<div class="g1-column g1-dropable">
+											<div class="g1-bin-1 g1-bin-grow-off">
+							<div class="g1-bin g1-bin-align-left">
+																	<div class="g1-id">
+			<h1 class="g1-mega g1-mega-1st site-title">
+		
+			<a class="g1-logo-wrapper"
+			   href="https://themezhub.com/" rel="home">
+									<img class="g1-logo g1-logo-default" width="220" height="42" src="https://themezhub.com/wp-content/uploads/logo4.png" srcset="https://themezhub.com/wp-content/uploads/logo4.png 2x,https://themezhub.com/wp-content/uploads/logo4.png 1x" alt="" />												</a>
+
+				</h1>
+
+	</div>															</div>
+						</div>
+											<div class="g1-bin-2 g1-bin-grow-off">
+							<div class="g1-bin g1-bin-align-center">
+															</div>
+						</div>
+											<div class="g1-bin-3 g1-bin-grow-off">
+							<div class="g1-bin g1-bin-align-right">
+																	<!-- BEGIN .g1-primary-nav -->
+<nav id="g1-primary-nav" class="g1-primary-nav"><ul id="g1-primary-nav-menu" class="g1-primary-nav-menu"><li id="menu-item-4785" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-g1-standard menu-item-4785"><a href="https://themezhub.com" aria-current="page">Home</a></li>
+<li id="menu-item-5431" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-g1-standard menu-item-5431"><a href="https://themezhub.com/premium-templates/">Premium</a></li>
+<li id="menu-item-5143" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-g1-standard menu-item-5143"><a href="../../../../booking-detail#">Design</a>
+<ul class="sub-menu">
+	<li id="menu-item-4790" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4790"><a href="https://themezhub.com/web-design/">Web Design</a></li>
+	<li id="menu-item-4990" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4990"><a href="https://themezhub.com/free-templates/">Free Templates</a></li>
+	<li id="menu-item-4842" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4842"><a href="https://themezhub.com/ui-ux/">UI/UX</a></li>
+</ul>
+</li>
+<li id="menu-item-4787" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-g1-standard menu-item-4787"><a href="https://themezhub.com/freebies/">Freebies</a>
+<ul class="sub-menu">
+	<li id="menu-item-4798" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4798"><a href="https://themezhub.com/icons/">Icons</a></li>
+	<li id="menu-item-5145" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5145"><a href="https://themezhub.com/ui-ux/">UI/UX</a></li>
+	<li id="menu-item-4841" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4841"><a href="https://themezhub.com/tools/">Tools</a></li>
+</ul>
+</li>
+<li id="menu-item-4843" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-g1-standard menu-item-4843"><a href="https://themezhub.com/wordpress/">WordPress</a>
+<ul class="sub-menu">
+	<li id="menu-item-4795" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4795"><a href="https://themezhub.com/wp-themes/">WP Themes</a></li>
+	<li id="menu-item-5165" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5165"><a href="https://themezhub.com/plugins/">Plugins</a></li>
+</ul>
+</li>
+<li id="menu-item-4789" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-g1-standard menu-item-4789"><a href="https://themezhub.com/resources/">Resources</a>
+<ul class="sub-menu">
+	<li id="menu-item-5148" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5148"><a href="https://themezhub.com/wp-themes/">WP Themes</a></li>
+	<li id="menu-item-5146" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5146"><a href="https://themezhub.com/free-templates/">Free Templates</a></li>
+	<li id="menu-item-5147" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5147"><a href="https://themezhub.com/tools/">Tools</a></li>
+	<li id="menu-item-5149" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5149"><a href="https://themezhub.com/bimber-fonts/">Fonts</a></li>
+	<li id="menu-item-5150" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5150"><a href="https://themezhub.com/ui-ux/">UI/UX</a></li>
+	<li id="menu-item-5151" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5151"><a href="https://themezhub.com/icons/">Icons</a></li>
+</ul>
+</li>
+<li id="menu-item-5401" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-g1-standard menu-item-5401"><a href="https://themezhub.com/advertise/">Advertise</a></li>
+</ul></nav><!-- END .g1-primary-nav -->
+																		<div class="g1-drop g1-drop-the-socials g1-drop-s g1-drop-icon ">
+		<a class="g1-drop-toggle" href="../../../../booking-detail#" title="Follow us">
+			<span class="g1-drop-toggle-icon"></span><span class="g1-drop-toggle-text">Follow us</span>
+			<span class="g1-drop-toggle-arrow"></span>
+		</a>
+		<div class="g1-drop-content">
+			<ul id="g1-social-icons-1" class="g1-socials-items g1-socials-items-tpl-grid">
+			<li class="g1-socials-item g1-socials-item-facebook">
+	   <a class="g1-socials-item-link" href="https://www.facebook.com/ThemezHubMarket/" target="_blank">
+		   <span class="g1-socials-item-icon g1-socials-item-icon-48 g1-socials-item-icon-text g1-socials-item-icon-facebook"></span>
+		   <span class="g1-socials-item-tooltip">
+			   <span class="g1-socials-item-tooltip-inner">facebook</span>
+		   </span>
+	   </a>
+	</li>
+			<li class="g1-socials-item g1-socials-item-twitter">
+	   <a class="g1-socials-item-link" href="https://twitter.com/themezhub77" target="_blank">
+		   <span class="g1-socials-item-icon g1-socials-item-icon-48 g1-socials-item-icon-text g1-socials-item-icon-twitter"></span>
+		   <span class="g1-socials-item-tooltip">
+			   <span class="g1-socials-item-tooltip-inner">twitter</span>
+		   </span>
+	   </a>
+	</li>
+			<li class="g1-socials-item g1-socials-item-behance">
+	   <a class="g1-socials-item-link" href="https://www.behance.net/themezhub0ef6" target="_blank">
+		   <span class="g1-socials-item-icon g1-socials-item-icon-48 g1-socials-item-icon-text g1-socials-item-icon-behance"></span>
+		   <span class="g1-socials-item-tooltip">
+			   <span class="g1-socials-item-tooltip-inner">behance</span>
+		   </span>
+	   </a>
+	</li>
+			<li class="g1-socials-item g1-socials-item-dribbble">
+	   <a class="g1-socials-item-link" href="https://dribbble.com/Themezhub" target="_blank">
+		   <span class="g1-socials-item-icon g1-socials-item-icon-48 g1-socials-item-icon-text g1-socials-item-icon-dribbble"></span>
+		   <span class="g1-socials-item-tooltip">
+			   <span class="g1-socials-item-tooltip-inner">dribbble</span>
+		   </span>
+	   </a>
+	</li>
+			<li class="g1-socials-item g1-socials-item-instagram">
+	   <a class="g1-socials-item-link" href="https://www.instagram.com/themezhub/" target="_blank">
+		   <span class="g1-socials-item-icon g1-socials-item-icon-48 g1-socials-item-icon-text g1-socials-item-icon-instagram"></span>
+		   <span class="g1-socials-item-tooltip">
+			   <span class="g1-socials-item-tooltip-inner">instagram</span>
+		   </span>
+	   </a>
+	</li>
+			<li class="g1-socials-item g1-socials-item-pinterest">
+	   <a class="g1-socials-item-link" href="https://www.pinterest.com/themezhub/" target="_blank">
+		   <span class="g1-socials-item-icon g1-socials-item-icon-48 g1-socials-item-icon-text g1-socials-item-icon-pinterest"></span>
+		   <span class="g1-socials-item-tooltip">
+			   <span class="g1-socials-item-tooltip-inner">pinterest</span>
+		   </span>
+	   </a>
+	</li>
+	</ul>
+		</div>
+	</div>
+																		<div class="g1-drop g1-drop-before g1-drop-the-search  g1-drop-m g1-drop-icon ">
+		<a class="g1-drop-toggle" href="https://themezhub.com/?s=">
+			<span class="g1-drop-toggle-icon"></span><span class="g1-drop-toggle-text">Search</span>
+			<span class="g1-drop-toggle-arrow"></span>
+		</a>
+		<div class="g1-drop-content">
+			
+
+<div role="search" class="search-form-wrapper">
+	<form method="get"
+	      class="g1-searchform-tpl-default g1-searchform-ajax search-form"
+	      action="https://themezhub.com/">
+		<label>
+			<span class="screen-reader-text">Search for:</span>
+			<input type="search" class="search-field"
+			       placeholder="Search &hellip;"
+			       value="" name="s"
+			       title="Search for:" />
+		</label>
+		<button class="search-submit">Search</button>
+	</form>
+
+			<div class="g1-searches g1-searches-ajax"></div>
+	</div>
+		</div>
+	</div>
+																																																																			</div>
+						</div>
+									</div>
+			</div>
+			<div class="g1-row-background"></div>
+		</div>
+				</div>
+				<div class="g1-row g1-row-layout-page g1-hb-row g1-hb-row-normal g1-hb-row-c g1-hb-row-2 g1-hb-boxed g1-hb-sticky-off g1-hb-shadow-off">
+			<div class="g1-row-inner">
+				<div class="g1-column g1-dropable">
+											<div class="g1-bin-1 g1-bin-grow-off">
+							<div class="g1-bin g1-bin-align-left">
+															</div>
+						</div>
+											<div class="g1-bin-2 g1-bin-grow-off">
+							<div class="g1-bin g1-bin-align-center">
+															</div>
+						</div>
+											<div class="g1-bin-3 g1-bin-grow-off">
+							<div class="g1-bin g1-bin-align-right">
+															</div>
+						</div>
+									</div>
+			</div>
+			<div class="g1-row-background"></div>
+		</div>
+			<div class="g1-row g1-row-layout-page g1-hb-row g1-hb-row-normal g1-hb-row-a g1-hb-row-3 g1-hb-full g1-hb-sticky-off g1-hb-shadow-off">
+			<div class="g1-row-inner">
+				<div class="g1-column g1-dropable">
+											<div class="g1-bin-1 g1-bin-grow-off">
+							<div class="g1-bin g1-bin-align-left">
+															</div>
+						</div>
+											<div class="g1-bin-2 g1-bin-grow-off">
+							<div class="g1-bin g1-bin-align-center">
+															</div>
+						</div>
+											<div class="g1-bin-3 g1-bin-grow-off">
+							<div class="g1-bin g1-bin-align-right">
+															</div>
+						</div>
+									</div>
+			</div>
+			<div class="g1-row-background"></div>
+		</div>
+					<div class="g1-sticky-top-wrapper g1-hb-row-1">
+				<div class="g1-row g1-row-layout-page g1-hb-row g1-hb-row-mobile g1-hb-row-a g1-hb-row-1 g1-hb-boxed g1-hb-sticky-on g1-hb-shadow-off">
+			<div class="g1-row-inner">
+				<div class="g1-column g1-dropable">
+											<div class="g1-bin-1 g1-bin-grow-off">
+							<div class="g1-bin g1-bin-align-left">
+															</div>
+						</div>
+											<div class="g1-bin-2 g1-bin-grow-off">
+							<div class="g1-bin g1-bin-align-center">
+															</div>
+						</div>
+											<div class="g1-bin-3 g1-bin-grow-off">
+							<div class="g1-bin g1-bin-align-right">
+															</div>
+						</div>
+									</div>
+			</div>
+			<div class="g1-row-background"></div>
+		</div>
+				</div>
+				<div class="g1-row g1-row-layout-page g1-hb-row g1-hb-row-mobile g1-hb-row-b g1-hb-row-2 g1-hb-boxed g1-hb-sticky-off g1-hb-shadow-off">
+			<div class="g1-row-inner">
+				<div class="g1-column g1-dropable">
+											<div class="g1-bin-1 g1-bin-grow-off">
+							<div class="g1-bin g1-bin-align-left">
+																		<a class="g1-hamburger g1-hamburger-show g1-hamburger-s  " href="../../../../booking-detail#">
+		<span class="g1-hamburger-icon"></span>
+			<span class="g1-hamburger-label
+			g1-hamburger-label-hidden			">Menu</span>
+	</a>
+															</div>
+						</div>
+											<div class="g1-bin-2 g1-bin-grow-on">
+							<div class="g1-bin g1-bin-align-center">
+																	<div class="g1-id">
+	
+	<p class="g1-mega g1-mega-1st site-title">
+		<a class="g1-logo-wrapper"
+		   href="https://themezhub.com/" rel="home">
+							<img class="g1-logo g1-logo-default" width="220" height="42" src="https://themezhub.com/wp-content/uploads/logo4.png" srcset="https://themezhub.com/wp-content/uploads/logo4.png 2x,https://themezhub.com/wp-content/uploads/logo4.png 1x" alt="" />									</a>
+	</p>
+
+	</div>															</div>
+						</div>
+											<div class="g1-bin-3 g1-bin-grow-off">
+							<div class="g1-bin g1-bin-align-right">
+																																</div>
+						</div>
+									</div>
+			</div>
+			<div class="g1-row-background"></div>
+		</div>
+			<div class="g1-row g1-row-layout-page g1-hb-row g1-hb-row-mobile g1-hb-row-c g1-hb-row-3 g1-hb-boxed g1-hb-sticky-off g1-hb-shadow-off">
+			<div class="g1-row-inner">
+				<div class="g1-column g1-dropable">
+											<div class="g1-bin-1 g1-bin-grow-off">
+							<div class="g1-bin g1-bin-align-left">
+															</div>
+						</div>
+											<div class="g1-bin-2 g1-bin-grow-on">
+							<div class="g1-bin g1-bin-align-center">
+																		<nav class="g1-quick-nav g1-quick-nav-short">
+		<ul class="g1-quick-nav-menu">
+																											</ul>
+	</nav>
+															</div>
+						</div>
+											<div class="g1-bin-3 g1-bin-grow-off">
+							<div class="g1-bin g1-bin-align-right">
+															</div>
+						</div>
+									</div>
+			</div>
+			<div class="g1-row-background"></div>
+		</div>
+	
+		
+		
+
+
+		
+
+
+
+	
+	<div class="g1-row g1-row-layout-page g1-row-padding-m archive-body">
+		<div class="g1-row-inner">
+
+			<div id="primary" class="g1-column">
+
+									<div class="g1-collection g1-collection-columns-3">
+						<h2 class="g1-delta g1-delta-2nd screen-reader-text g1-collection-title"><span>Latest stories</span></h2>
+						<div class="g1-collection-viewport">
+							<ul class="g1-collection-items">
+																
+									
+									<li class="g1-collection-item g1-collection-item-1of3">
+										
+<article class="entry-tpl-grid post-5364 post type-post status-publish format-standard has-post-thumbnail category-resources">
+	<figure class="entry-featured-media " ><a title="15 Best Places To Get Free &#038; Paid Vector Designs, Images And Icons" class="g1-frame" href="https://themezhub.com/15-best-places-to-get-free-paid-vector-designs-images-and-icons/"><div class="g1-frame-inner" style="padding-bottom: 56.31868132%;"><img width="364" height="205" src="https://themezhub.com/wp-content/uploads/vectors-resouces-364x205.jpg" class="attachment-bimber-grid-standard size-bimber-grid-standard wp-post-image" alt="fea" srcset="https://themezhub.com/wp-content/uploads/vectors-resouces-364x205.jpg 364w, https://themezhub.com/wp-content/uploads/vectors-resouces-192x108.jpg 192w, https://themezhub.com/wp-content/uploads/vectors-resouces-384x216.jpg 384w, https://themezhub.com/wp-content/uploads/vectors-resouces-728x409.jpg 728w, https://themezhub.com/wp-content/uploads/vectors-resouces-561x316.jpg 561w, https://themezhub.com/wp-content/uploads/vectors-resouces-1122x631.jpg 1122w, https://themezhub.com/wp-content/uploads/vectors-resouces-758x426.jpg 758w, https://themezhub.com/wp-content/uploads/vectors-resouces-1152x648.jpg 1152w" sizes="(max-width: 364px) 100vw, 364px" /><span class="g1-frame-icon g1-frame-icon-"></span></div></a></figure>
+		
+	<div class="entry-body">
+		<header class="entry-header">
+			<div class="entry-before-title">
+				<p class="entry-meta entry-stats g1-meta g1-meta g1-current-background"><span class="entry-views "><strong>566</strong><span> Views</span></span></p>
+				<span class="entry-categories "><span class="entry-categories-inner"><span class="entry-categories-label">in</span> <a href="https://themezhub.com/resources/" class="entry-category entry-category-item-432">Resources</a></span></span>			</div>
+
+			<h3 class="g1-gamma g1-gamma-1st entry-title"><a href="https://themezhub.com/15-best-places-to-get-free-paid-vector-designs-images-and-icons/" rel="bookmark">15 Best Places To Get Free &#038; Paid Vector Designs, Images And Icons</a></h3>
+					</header>
+
+		
+					<footer>
+				<p class="g1-meta entry-meta entry-byline ">
+					
+					<time class="entry-date" datetime="2019-08-06T08:04:38">August 6, 2019, 8:04 am</time>				</p>
+			</footer>
+		
+			</div>
+</article>
+									</li>
+
+																	
+									
+									<li class="g1-collection-item g1-collection-item-1of3">
+										
+<article class="entry-tpl-grid post-5347 post type-post status-publish format-standard has-post-thumbnail category-articles category-resources">
+	<figure class="entry-featured-media " ><a title="10 Best Placeholder Image Generator Services For Web Designers" class="g1-frame" href="https://themezhub.com/10-best-placeholder-image-generator-services-for-web-designers/"><div class="g1-frame-inner" style="padding-bottom: 56.31868132%;"><img width="364" height="205" src="https://themezhub.com/wp-content/uploads/placeholder-main-preview-364x205.jpg" class="attachment-bimber-grid-standard size-bimber-grid-standard wp-post-image" alt="placeholder Tools" srcset="https://themezhub.com/wp-content/uploads/placeholder-main-preview-364x205.jpg 364w, https://themezhub.com/wp-content/uploads/placeholder-main-preview-740x416.jpg 740w, https://themezhub.com/wp-content/uploads/placeholder-main-preview-768x432.jpg 768w, https://themezhub.com/wp-content/uploads/placeholder-main-preview-1024x576.jpg 1024w, https://themezhub.com/wp-content/uploads/placeholder-main-preview-192x108.jpg 192w, https://themezhub.com/wp-content/uploads/placeholder-main-preview-384x216.jpg 384w, https://themezhub.com/wp-content/uploads/placeholder-main-preview-728x409.jpg 728w, https://themezhub.com/wp-content/uploads/placeholder-main-preview-561x316.jpg 561w, https://themezhub.com/wp-content/uploads/placeholder-main-preview-1122x631.jpg 1122w, https://themezhub.com/wp-content/uploads/placeholder-main-preview-608x342.jpg 608w, https://themezhub.com/wp-content/uploads/placeholder-main-preview-758x426.jpg 758w, https://themezhub.com/wp-content/uploads/placeholder-main-preview-1152x648.jpg 1152w, https://themezhub.com/wp-content/uploads/placeholder-main-preview-85x48.jpg 85w, https://themezhub.com/wp-content/uploads/placeholder-main-preview-171x96.jpg 171w, https://themezhub.com/wp-content/uploads/placeholder-main-preview-313x176.jpg 313w, https://themezhub.com/wp-content/uploads/placeholder-main-preview.jpg 1280w" sizes="(max-width: 364px) 100vw, 364px" /><span class="g1-frame-icon g1-frame-icon-"></span></div></a></figure>
+		
+	<div class="entry-body">
+		<header class="entry-header">
+			<div class="entry-before-title">
+				<p class="entry-meta entry-stats g1-meta g1-meta g1-current-background"><span class="entry-views "><strong>1.6k</strong><span> Views</span></span></p>
+				<span class="entry-categories "><span class="entry-categories-inner"><span class="entry-categories-label">in</span> <a href="https://themezhub.com/articles/" class="entry-category entry-category-item-1">Articles</a>, <a href="https://themezhub.com/resources/" class="entry-category entry-category-item-432">Resources</a></span></span>			</div>
+
+			<h3 class="g1-gamma g1-gamma-1st entry-title"><a href="https://themezhub.com/10-best-placeholder-image-generator-services-for-web-designers/" rel="bookmark">10 Best Placeholder Image Generator Services For Web Designers</a></h3>
+					</header>
+
+		
+					<footer>
+				<p class="g1-meta entry-meta entry-byline ">
+					
+					<time class="entry-date" datetime="2019-07-22T06:33:21">July 22, 2019, 6:33 am</time>				</p>
+			</footer>
+		
+			</div>
+</article>
+									</li>
+
+																	
+									
+									<li class="g1-collection-item g1-collection-item-1of3">
+										
+<article class="entry-tpl-grid post-5332 post type-post status-publish format-standard has-post-thumbnail category-templates">
+	<figure class="entry-featured-media " ><a title="Give A Stop To Your Job Board HTML Template hunt With Workio" class="g1-frame" href="https://themezhub.com/give-a-stop-to-your-job-board-html-template-hunt-with-workio/"><div class="g1-frame-inner" style="padding-bottom: 56.31868132%;"><img width="364" height="205" src="https://themezhub.com/wp-content/uploads/workio-364x205.jpg" class="attachment-bimber-grid-standard size-bimber-grid-standard wp-post-image" alt="workio" srcset="https://themezhub.com/wp-content/uploads/workio-364x205.jpg 364w, https://themezhub.com/wp-content/uploads/workio-192x108.jpg 192w, https://themezhub.com/wp-content/uploads/workio-384x216.jpg 384w, https://themezhub.com/wp-content/uploads/workio-728x409.jpg 728w, https://themezhub.com/wp-content/uploads/workio-561x316.jpg 561w, https://themezhub.com/wp-content/uploads/workio-758x426.jpg 758w" sizes="(max-width: 364px) 100vw, 364px" /><span class="g1-frame-icon g1-frame-icon-"></span></div></a></figure>
+		
+	<div class="entry-body">
+		<header class="entry-header">
+			<div class="entry-before-title">
+				<p class="entry-meta entry-stats g1-meta g1-meta g1-current-background"><span class="entry-views entry-views-trending "><strong>2.2k</strong><span> Views</span></span></p>
+				<span class="entry-categories "><span class="entry-categories-inner"><span class="entry-categories-label">in</span> <a href="https://themezhub.com/templates/" class="entry-category entry-category-item-546">Templates</a></span></span>			</div>
+
+			<h3 class="g1-gamma g1-gamma-1st entry-title"><a href="https://themezhub.com/give-a-stop-to-your-job-board-html-template-hunt-with-workio/" rel="bookmark">Give A Stop To Your Job Board HTML Template hunt With Workio</a></h3>
+					</header>
+
+		
+					<footer>
+				<p class="g1-meta entry-meta entry-byline ">
+					
+					<time class="entry-date" datetime="2019-07-10T16:52:39">July 10, 2019, 4:52 pm</time>				</p>
+			</footer>
+		
+			</div>
+</article>
+									</li>
+
+																	
+									
+									<li class="g1-collection-item g1-collection-item-1of3">
+										
+<article class="entry-tpl-grid post-5252 post type-post status-publish format-standard has-post-thumbnail category-articles category-resources tag-bran tag-grow-your-business tag-marketing-tools tag-seo tag-social tag-social-media">
+	<figure class="entry-featured-media " ><a title="20+ Best Social Media Marketing Tools TO Grow Your Business" class="g1-frame" href="https://themezhub.com/20-best-social-media-marketing-tools-to-grow-your-business/"><div class="g1-frame-inner" style="padding-bottom: 56.31868132%;"><img width="364" height="205" src="https://themezhub.com/wp-content/uploads/sm-marketing-364x205.jpg" class="attachment-bimber-grid-standard size-bimber-grid-standard wp-post-image" alt="Social Marketing Tools" srcset="https://themezhub.com/wp-content/uploads/sm-marketing-364x205.jpg 364w, https://themezhub.com/wp-content/uploads/sm-marketing-192x108.jpg 192w, https://themezhub.com/wp-content/uploads/sm-marketing-384x216.jpg 384w, https://themezhub.com/wp-content/uploads/sm-marketing-728x409.jpg 728w, https://themezhub.com/wp-content/uploads/sm-marketing-561x316.jpg 561w, https://themezhub.com/wp-content/uploads/sm-marketing-1122x631.jpg 1122w, https://themezhub.com/wp-content/uploads/sm-marketing-758x426.jpg 758w, https://themezhub.com/wp-content/uploads/sm-marketing-1152x648.jpg 1152w" sizes="(max-width: 364px) 100vw, 364px" /><span class="g1-frame-icon g1-frame-icon-"></span></div></a></figure>
+		
+	<div class="entry-body">
+		<header class="entry-header">
+			<div class="entry-before-title">
+				<p class="entry-meta entry-stats g1-meta g1-meta g1-current-background"><span class="entry-views "><strong>1.2k</strong><span> Views</span></span></p>
+				<span class="entry-categories "><span class="entry-categories-inner"><span class="entry-categories-label">in</span> <a href="https://themezhub.com/articles/" class="entry-category entry-category-item-1">Articles</a>, <a href="https://themezhub.com/resources/" class="entry-category entry-category-item-432">Resources</a></span></span>			</div>
+
+			<h3 class="g1-gamma g1-gamma-1st entry-title"><a href="https://themezhub.com/20-best-social-media-marketing-tools-to-grow-your-business/" rel="bookmark">20+ Best Social Media Marketing Tools TO Grow Your Business</a></h3>
+					</header>
+
+		
+					<footer>
+				<p class="g1-meta entry-meta entry-byline ">
+					
+					<time class="entry-date" datetime="2019-05-24T11:44:39">May 24, 2019, 11:44 am</time>				</p>
+			</footer>
+		
+			</div>
+</article>
+									</li>
+
+																	
+									
+									<li class="g1-collection-item g1-collection-item-1of3">
+										
+<article class="entry-tpl-grid post-5247 post type-post status-publish format-standard has-post-thumbnail category-articles tag-agency tag-business-templates tag-business-themes tag-digital-marketing tag-landing-pages tag-seo tag-software">
+	<figure class="entry-featured-media " ><a title="Themex &#8211; One of The Most Powerful, Creative &#038; Unique Multipurpose Business Template" class="g1-frame" href="https://themezhub.com/themex-one-of-the-most-powerful-creative-unique-multipurpose-business-template/"><div class="g1-frame-inner" style="padding-bottom: 56.31868132%;"><img width="364" height="205" src="https://themezhub.com/wp-content/uploads/themex-364x205.jpg" class="attachment-bimber-grid-standard size-bimber-grid-standard wp-post-image" alt="Themex" srcset="https://themezhub.com/wp-content/uploads/themex-364x205.jpg 364w, https://themezhub.com/wp-content/uploads/themex-192x108.jpg 192w, https://themezhub.com/wp-content/uploads/themex-384x216.jpg 384w, https://themezhub.com/wp-content/uploads/themex-728x409.jpg 728w, https://themezhub.com/wp-content/uploads/themex-561x316.jpg 561w, https://themezhub.com/wp-content/uploads/themex-758x426.jpg 758w" sizes="(max-width: 364px) 100vw, 364px" /><span class="g1-frame-icon g1-frame-icon-"></span></div></a></figure>
+		
+	<div class="entry-body">
+		<header class="entry-header">
+			<div class="entry-before-title">
+				<p class="entry-meta entry-stats g1-meta g1-meta g1-current-background"><span class="entry-views entry-views-trending "><strong>1.9k</strong><span> Views</span></span></p>
+				<span class="entry-categories "><span class="entry-categories-inner"><span class="entry-categories-label">in</span> <a href="https://themezhub.com/articles/" class="entry-category entry-category-item-1">Articles</a></span></span>			</div>
+
+			<h3 class="g1-gamma g1-gamma-1st entry-title"><a href="https://themezhub.com/themex-one-of-the-most-powerful-creative-unique-multipurpose-business-template/" rel="bookmark">Themex &#8211; One of The Most Powerful, Creative &#038; Unique Multipurpose Business Template</a></h3>
+					</header>
+
+		
+					<footer>
+				<p class="g1-meta entry-meta entry-byline ">
+					
+					<time class="entry-date" datetime="2019-05-07T08:18:55">May 7, 2019, 8:18 am</time>				</p>
+			</footer>
+		
+			</div>
+</article>
+									</li>
+
+																	
+									
+									<li class="g1-collection-item g1-collection-item-1of3">
+										
+<article class="entry-tpl-grid post-5233 post type-post status-publish format-standard has-post-thumbnail category-articles tag-candidate tag-careerbuilder tag-freelancing-theme tag-glassdoor tag-job-board tag-job-seeker tag-job-template tag-resume">
+	<figure class="entry-featured-media " ><a title="New, Creative &#038; Modern Job Board &#038; Freelancing Template" class="g1-frame" href="https://themezhub.com/new-creative-modern-job-board-freelancing-template/"><div class="g1-frame-inner" style="padding-bottom: 56.31868132%;"><img width="364" height="205" src="https://themezhub.com/wp-content/uploads/job-hill-364x205.jpg" class="attachment-bimber-grid-standard size-bimber-grid-standard wp-post-image" alt="Job Hill" srcset="https://themezhub.com/wp-content/uploads/job-hill-364x205.jpg 364w, https://themezhub.com/wp-content/uploads/job-hill-192x108.jpg 192w, https://themezhub.com/wp-content/uploads/job-hill-384x216.jpg 384w, https://themezhub.com/wp-content/uploads/job-hill-728x409.jpg 728w, https://themezhub.com/wp-content/uploads/job-hill-561x316.jpg 561w, https://themezhub.com/wp-content/uploads/job-hill-1122x631.jpg 1122w, https://themezhub.com/wp-content/uploads/job-hill-758x426.jpg 758w, https://themezhub.com/wp-content/uploads/job-hill-1152x648.jpg 1152w" sizes="(max-width: 364px) 100vw, 364px" /><span class="g1-frame-icon g1-frame-icon-"></span></div></a></figure>
+		
+	<div class="entry-body">
+		<header class="entry-header">
+			<div class="entry-before-title">
+				<p class="entry-meta entry-stats g1-meta g1-meta g1-current-background"><span class="entry-views entry-views-trending "><strong>1.4k</strong><span> Views</span></span></p>
+				<span class="entry-categories "><span class="entry-categories-inner"><span class="entry-categories-label">in</span> <a href="https://themezhub.com/articles/" class="entry-category entry-category-item-1">Articles</a></span></span>			</div>
+
+			<h3 class="g1-gamma g1-gamma-1st entry-title"><a href="https://themezhub.com/new-creative-modern-job-board-freelancing-template/" rel="bookmark">New, Creative &#038; Modern Job Board &#038; Freelancing Template</a></h3>
+					</header>
+
+		
+					<footer>
+				<p class="g1-meta entry-meta entry-byline ">
+					
+					<time class="entry-date" datetime="2019-05-04T10:43:33">May 4, 2019, 10:43 am</time>				</p>
+			</footer>
+		
+			</div>
+</article>
+									</li>
+
+																	
+									
+									<li class="g1-collection-item g1-collection-item-1of3">
+										
+<article class="entry-tpl-grid post-5204 post type-post status-publish format-standard has-post-thumbnail category-freebies category-resources">
+	<figure class="entry-featured-media " ><a title="10+ Best Online GIF Creator Tools You Should Try it" class="g1-frame" href="https://themezhub.com/10-best-online-gif-creator-tools-you-should-try-it/"><div class="g1-frame-inner" style="padding-bottom: 56.31868132%;"><img width="364" height="205" src="https://themezhub.com/wp-content/uploads/gif-maker-364x205.jpg" class="attachment-bimber-grid-standard size-bimber-grid-standard wp-post-image" alt="Gif Maker" srcset="https://themezhub.com/wp-content/uploads/gif-maker-364x205.jpg 364w, https://themezhub.com/wp-content/uploads/gif-maker-192x108.jpg 192w, https://themezhub.com/wp-content/uploads/gif-maker-384x216.jpg 384w, https://themezhub.com/wp-content/uploads/gif-maker-728x410.jpg 728w, https://themezhub.com/wp-content/uploads/gif-maker-561x316.jpg 561w, https://themezhub.com/wp-content/uploads/gif-maker-1122x631.jpg 1122w, https://themezhub.com/wp-content/uploads/gif-maker-758x426.jpg 758w, https://themezhub.com/wp-content/uploads/gif-maker-1152x648.jpg 1152w" sizes="(max-width: 364px) 100vw, 364px" /><span class="g1-frame-icon g1-frame-icon-"></span></div></a></figure>
+		
+	<div class="entry-body">
+		<header class="entry-header">
+			<div class="entry-before-title">
+				<p class="entry-meta entry-stats g1-meta g1-meta g1-current-background"><span class="entry-views "><strong>1.9k</strong><span> Views</span></span></p>
+				<span class="entry-categories "><span class="entry-categories-inner"><span class="entry-categories-label">in</span> <a href="https://themezhub.com/freebies/" class="entry-category entry-category-item-430">Freebies</a>, <a href="https://themezhub.com/resources/" class="entry-category entry-category-item-432">Resources</a></span></span>			</div>
+
+			<h3 class="g1-gamma g1-gamma-1st entry-title"><a href="https://themezhub.com/10-best-online-gif-creator-tools-you-should-try-it/" rel="bookmark">10+ Best Online GIF Creator Tools You Should Try it</a></h3>
+					</header>
+
+		
+					<footer>
+				<p class="g1-meta entry-meta entry-byline ">
+					
+					<time class="entry-date" datetime="2019-04-11T06:37:16">April 11, 2019, 6:37 am</time>				</p>
+			</footer>
+		
+			</div>
+</article>
+									</li>
+
+																	
+									
+									<li class="g1-collection-item g1-collection-item-1of3">
+										
+<article class="entry-tpl-grid post-5166 post type-post status-publish format-standard has-post-thumbnail category-templates">
+	<figure class="entry-featured-media " ><a title="Launch your Job site with Job Stock, Best Job Board &#038; Freelancing Theme" class="g1-frame" href="https://themezhub.com/launch-your-job-board-site-with-job-stock-wonderful-job-board-freelancing-template/"><div class="g1-frame-inner" style="padding-bottom: 56.31868132%;"><img width="364" height="205" src="https://themezhub.com/wp-content/uploads/job-stock-364x205.jpg" class="attachment-bimber-grid-standard size-bimber-grid-standard wp-post-image" alt="job-stock.jpg" srcset="https://themezhub.com/wp-content/uploads/job-stock-364x205.jpg 364w, https://themezhub.com/wp-content/uploads/job-stock-740x416.jpg 740w, https://themezhub.com/wp-content/uploads/job-stock-768x432.jpg 768w, https://themezhub.com/wp-content/uploads/job-stock-1024x576.jpg 1024w, https://themezhub.com/wp-content/uploads/job-stock-192x108.jpg 192w, https://themezhub.com/wp-content/uploads/job-stock-384x216.jpg 384w, https://themezhub.com/wp-content/uploads/job-stock-728x410.jpg 728w, https://themezhub.com/wp-content/uploads/job-stock-561x316.jpg 561w, https://themezhub.com/wp-content/uploads/job-stock-1122x631.jpg 1122w, https://themezhub.com/wp-content/uploads/job-stock-758x426.jpg 758w, https://themezhub.com/wp-content/uploads/job-stock-608x342.jpg 608w, https://themezhub.com/wp-content/uploads/job-stock-1152x648.jpg 1152w, https://themezhub.com/wp-content/uploads/job-stock-85x48.jpg 85w, https://themezhub.com/wp-content/uploads/job-stock-171x96.jpg 171w, https://themezhub.com/wp-content/uploads/job-stock.jpg 1280w" sizes="(max-width: 364px) 100vw, 364px" /><span class="g1-frame-icon g1-frame-icon-"></span></div></a></figure>
+		
+	<div class="entry-body">
+		<header class="entry-header">
+			<div class="entry-before-title">
+				<p class="entry-meta entry-stats g1-meta g1-meta g1-current-background"><span class="entry-views entry-views-trending "><strong>1.7k</strong><span> Views</span></span></p>
+				<span class="entry-categories "><span class="entry-categories-inner"><span class="entry-categories-label">in</span> <a href="https://themezhub.com/templates/" class="entry-category entry-category-item-546">Templates</a></span></span>			</div>
+
+			<h3 class="g1-gamma g1-gamma-1st entry-title"><a href="https://themezhub.com/launch-your-job-board-site-with-job-stock-wonderful-job-board-freelancing-template/" rel="bookmark">Launch your Job site with Job Stock, Best Job Board &#038; Freelancing Theme</a></h3>
+					</header>
+
+		
+					<footer>
+				<p class="g1-meta entry-meta entry-byline ">
+					
+					<time class="entry-date" datetime="2019-03-31T10:25:30">March 31, 2019, 10:25 am</time>				</p>
+			</footer>
+		
+			</div>
+</article>
+									</li>
+
+																	
+									
+									<li class="g1-collection-item g1-collection-item-1of3">
+										
+<article class="entry-tpl-grid post-5127 post type-post status-publish format-standard has-post-thumbnail category-freebies category-resources">
+	<figure class="entry-featured-media " ><a title="5+ Best Free Online Mockup Generator Tools for Web Designers" class="g1-frame" href="https://themezhub.com/5-best-free-online-mockup-generator-tools-for-web-designers/"><div class="g1-frame-inner" style="padding-bottom: 56.31868132%;"><img width="364" height="205" src="https://themezhub.com/wp-content/uploads/mockup-364x205.jpg" class="attachment-bimber-grid-standard size-bimber-grid-standard wp-post-image" alt="mockup" srcset="https://themezhub.com/wp-content/uploads/mockup-364x205.jpg 364w, https://themezhub.com/wp-content/uploads/mockup-192x108.jpg 192w, https://themezhub.com/wp-content/uploads/mockup-384x216.jpg 384w, https://themezhub.com/wp-content/uploads/mockup-728x410.jpg 728w, https://themezhub.com/wp-content/uploads/mockup-561x316.jpg 561w, https://themezhub.com/wp-content/uploads/mockup-1122x631.jpg 1122w, https://themezhub.com/wp-content/uploads/mockup-758x426.jpg 758w, https://themezhub.com/wp-content/uploads/mockup-1152x648.jpg 1152w" sizes="(max-width: 364px) 100vw, 364px" /><span class="g1-frame-icon g1-frame-icon-"></span></div></a></figure>
+		
+	<div class="entry-body">
+		<header class="entry-header">
+			<div class="entry-before-title">
+				<p class="entry-meta entry-stats g1-meta g1-meta g1-current-background"><span class="entry-views entry-views-hot "><strong>2.2k</strong><span> Views</span></span></p>
+				<span class="entry-categories "><span class="entry-categories-inner"><span class="entry-categories-label">in</span> <a href="https://themezhub.com/freebies/" class="entry-category entry-category-item-430">Freebies</a>, <a href="https://themezhub.com/resources/" class="entry-category entry-category-item-432">Resources</a></span></span>			</div>
+
+			<h3 class="g1-gamma g1-gamma-1st entry-title"><a href="https://themezhub.com/5-best-free-online-mockup-generator-tools-for-web-designers/" rel="bookmark">5+ Best Free Online Mockup Generator Tools for Web Designers</a></h3>
+					</header>
+
+		
+					<footer>
+				<p class="g1-meta entry-meta entry-byline ">
+					
+					<time class="entry-date" datetime="2019-03-26T16:37:22">March 26, 2019, 4:37 pm</time>				</p>
+			</footer>
+		
+			</div>
+</article>
+									</li>
+
+																	
+									
+									<li class="g1-collection-item g1-collection-item-1of3">
+										
+<article class="entry-tpl-grid post-5116 post type-post status-publish format-standard has-post-thumbnail category-tools">
+	<figure class="entry-featured-media " ><a title="10 of the Best SEO Tools for Auditing and Monitoring Website Performance" class="g1-frame" href="https://themezhub.com/10-of-the-best-seo-tools-for-auditing-and-monitoring-website-performance/"><div class="g1-frame-inner" style="padding-bottom: 56.31868132%;"><img width="364" height="205" src="https://themezhub.com/wp-content/uploads/side-364x205.jpg" class="attachment-bimber-grid-standard size-bimber-grid-standard wp-post-image" alt="" srcset="https://themezhub.com/wp-content/uploads/side-364x205.jpg 364w, https://themezhub.com/wp-content/uploads/side-192x108.jpg 192w, https://themezhub.com/wp-content/uploads/side-384x216.jpg 384w, https://themezhub.com/wp-content/uploads/side-728x410.jpg 728w, https://themezhub.com/wp-content/uploads/side-561x316.jpg 561w, https://themezhub.com/wp-content/uploads/side-1122x631.jpg 1122w, https://themezhub.com/wp-content/uploads/side-758x426.jpg 758w, https://themezhub.com/wp-content/uploads/side-1152x648.jpg 1152w" sizes="(max-width: 364px) 100vw, 364px" /><span class="g1-frame-icon g1-frame-icon-"></span></div></a></figure>
+		
+	<div class="entry-body">
+		<header class="entry-header">
+			<div class="entry-before-title">
+				<p class="entry-meta entry-stats g1-meta g1-meta g1-current-background"><span class="entry-views "><strong>1.4k</strong><span> Views</span></span></p>
+				<span class="entry-categories "><span class="entry-categories-inner"><span class="entry-categories-label">in</span> <a href="https://themezhub.com/tools/" class="entry-category entry-category-item-436">Tools</a></span></span>			</div>
+
+			<h3 class="g1-gamma g1-gamma-1st entry-title"><a href="https://themezhub.com/10-of-the-best-seo-tools-for-auditing-and-monitoring-website-performance/" rel="bookmark">10 of the Best SEO Tools for Auditing and Monitoring Website Performance</a></h3>
+					</header>
+
+		
+					<footer>
+				<p class="g1-meta entry-meta entry-byline ">
+					
+					<time class="entry-date" datetime="2019-03-11T10:20:43">March 11, 2019, 10:20 am</time>				</p>
+			</footer>
+		
+			</div>
+</article>
+									</li>
+
+																	
+									
+									<li class="g1-collection-item g1-collection-item-1of3">
+										
+<article class="entry-tpl-grid post-5104 post type-post status-publish format-standard has-post-thumbnail category-templates">
+	<figure class="entry-featured-media " ><a title="Virasat &#8211; Multipurpose business HTML template for your website!" class="g1-frame" href="https://themezhub.com/virasat-multipurpose-business-html-template-for-your-website/"><div class="g1-frame-inner" style="padding-bottom: 56.31868132%;"><img width="364" height="205" src="https://themezhub.com/wp-content/uploads/virasat-364x205.png" class="attachment-bimber-grid-standard size-bimber-grid-standard wp-post-image" alt="Virasat" srcset="https://themezhub.com/wp-content/uploads/virasat-364x205.png 364w, https://themezhub.com/wp-content/uploads/virasat-192x108.png 192w, https://themezhub.com/wp-content/uploads/virasat-384x216.png 384w, https://themezhub.com/wp-content/uploads/virasat-728x410.png 728w, https://themezhub.com/wp-content/uploads/virasat-561x316.png 561w, https://themezhub.com/wp-content/uploads/virasat-758x426.png 758w" sizes="(max-width: 364px) 100vw, 364px" /><span class="g1-frame-icon g1-frame-icon-"></span></div></a></figure>
+		
+	<div class="entry-body">
+		<header class="entry-header">
+			<div class="entry-before-title">
+				<p class="entry-meta entry-stats g1-meta g1-meta g1-current-background"><span class="entry-views "><strong>1.8k</strong><span> Views</span></span></p>
+				<span class="entry-categories "><span class="entry-categories-inner"><span class="entry-categories-label">in</span> <a href="https://themezhub.com/templates/" class="entry-category entry-category-item-546">Templates</a></span></span>			</div>
+
+			<h3 class="g1-gamma g1-gamma-1st entry-title"><a href="https://themezhub.com/virasat-multipurpose-business-html-template-for-your-website/" rel="bookmark">Virasat &#8211; Multipurpose business HTML template for your website!</a></h3>
+					</header>
+
+		
+					<footer>
+				<p class="g1-meta entry-meta entry-byline ">
+					
+					<time class="entry-date" datetime="2019-03-05T10:37:46">March 5, 2019, 10:37 am</time>				</p>
+			</footer>
+		
+			</div>
+</article>
+									</li>
+
+																	
+									
+									<li class="g1-collection-item g1-collection-item-1of3">
+										
+<article class="entry-tpl-grid post-5060 post type-post status-publish format-standard has-post-thumbnail category-wp-themes">
+	<figure class="entry-featured-media " ><a title="15 Best Multipurpose WordPress Themes" class="g1-frame" href="https://themezhub.com/15-best-multipurpose-wordpress-themes/"><div class="g1-frame-inner" style="padding-bottom: 56.31868132%;"><img width="364" height="205" src="https://themezhub.com/wp-content/uploads/thegem-364x205.png" class="attachment-bimber-grid-standard size-bimber-grid-standard wp-post-image" alt="thegem" srcset="https://themezhub.com/wp-content/uploads/thegem-364x205.png 364w, https://themezhub.com/wp-content/uploads/thegem-192x108.png 192w, https://themezhub.com/wp-content/uploads/thegem-384x216.png 384w, https://themezhub.com/wp-content/uploads/thegem-728x410.png 728w, https://themezhub.com/wp-content/uploads/thegem-561x316.png 561w, https://themezhub.com/wp-content/uploads/thegem-758x426.png 758w" sizes="(max-width: 364px) 100vw, 364px" /><span class="g1-frame-icon g1-frame-icon-"></span></div></a></figure>
+		
+	<div class="entry-body">
+		<header class="entry-header">
+			<div class="entry-before-title">
+				<p class="entry-meta entry-stats g1-meta g1-meta g1-current-background"><span class="entry-views "><strong>1.5k</strong><span> Views</span></span></p>
+				<span class="entry-categories "><span class="entry-categories-inner"><span class="entry-categories-label">in</span> <a href="https://themezhub.com/wp-themes/" class="entry-category entry-category-item-627">WP Themes</a></span></span>			</div>
+
+			<h3 class="g1-gamma g1-gamma-1st entry-title"><a href="https://themezhub.com/15-best-multipurpose-wordpress-themes/" rel="bookmark">15 Best Multipurpose WordPress Themes</a></h3>
+					</header>
+
+		
+					<footer>
+				<p class="g1-meta entry-meta entry-byline ">
+					
+					<time class="entry-date" datetime="2019-01-22T16:24:28">January 22, 2019, 4:24 pm</time>				</p>
+			</footer>
+		
+			</div>
+</article>
+									</li>
+
+																								</ul>
+						</div>
+
+						
+	<div class="g1-collection-more infinite-scroll on-demand">
+		<div class="g1-collection-more-inner">
+			<a href="../../../../booking-detail#"
+			   class="g1-button g1-button-m g1-button-solid g1-load-more"
+			   data-g1-next-page-url="https://themezhub.com/page/2/">
+				Load More			</a>
+			<i class="g1-collection-more-spinner"></i>
+			<div class="g1-pagination-end">
+				Congratulations. You&#039;ve reached the end of the internet.			</div>
+		</div>
+	</div>
+					</div><!-- .g1-collection -->
+				
+			</div><!-- .g1-column -->
+
+		</div>
+		<div class="g1-row-background"></div>
+	</div>
+
+
+<div class="g1-row g1-row-layout-page g1-newsletter-as-row g1-newsletter-as-row-before_footer g1-before_footer g1-dark">
+	<div class="g1-row-background"></div>
+
+	<div class="g1-row-inner">
+		<div class="g1-column">
+			
+<aside id="bimber-mc4wp-form-counter-1" class="g1-newsletter g1-newsletter-horizontal g1-newsletter-block ">
+	<header>
+		<h2 class="g1-delta g1-delta-2nd"><span>Newsletter</span></h2>	</header>
+
+			<div class="g1-newsletter-avatar">
+					</div>
+	
+	<p class="g1-mega g1-mega-1st">Our Creative Newsletter</p>
+
+	
+	<script>(function() {
+	if (!window.mc4wp) {
+		window.mc4wp = {
+			listeners: [],
+			forms    : {
+				on: function (event, callback) {
+					window.mc4wp.listeners.push({
+						event   : event,
+						callback: callback
+					});
+				}
+			}
+		}
+	}
+})();
+</script><!-- Mailchimp for WordPress v4.5.3 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-2593" method="post" data-id="2593" data-name="Themez Hub Subscriber" ><div class="mc4wp-form-fields"><p>
+<input type="email" name="EMAIL" placeholder="Enter our email address" required />
+</p>
+
+<p>
+	<input type="submit" value="Subscribe" />
+</p></div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1565875145" /><input type="hidden" name="_mc4wp_form_id" value="2593" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><div class="mc4wp-response"></div><p class="g1-meta g1-newsletter-privacy">Don't worry, we don't spam</p></form><!-- / Mailchimp for WordPress Plugin --></aside>
+		</div>
+	</div>
+</div>
+
+		<div class="g1-row g1-row-layout-page g1-socials-section g1-dark">
+			<div class="g1-row-inner">
+				<div class="g1-column">
+					<ul id="g1-social-icons-2" class="g1-socials-items g1-socials-items-tpl-grid">
+			<li class="g1-socials-item g1-socials-item-facebook">
+	   <a class="g1-socials-item-link" href="https://www.facebook.com/ThemezHubMarket/" target="_blank">
+		   <span class="g1-socials-item-icon g1-socials-item-icon-32 g1-socials-item-icon-text g1-socials-item-icon-facebook"></span>
+		   <span class="g1-socials-item-tooltip">
+			   <span class="g1-socials-item-tooltip-inner">facebook</span>
+		   </span>
+	   </a>
+	</li>
+			<li class="g1-socials-item g1-socials-item-twitter">
+	   <a class="g1-socials-item-link" href="https://twitter.com/themezhub77" target="_blank">
+		   <span class="g1-socials-item-icon g1-socials-item-icon-32 g1-socials-item-icon-text g1-socials-item-icon-twitter"></span>
+		   <span class="g1-socials-item-tooltip">
+			   <span class="g1-socials-item-tooltip-inner">twitter</span>
+		   </span>
+	   </a>
+	</li>
+			<li class="g1-socials-item g1-socials-item-behance">
+	   <a class="g1-socials-item-link" href="https://www.behance.net/themezhub0ef6" target="_blank">
+		   <span class="g1-socials-item-icon g1-socials-item-icon-32 g1-socials-item-icon-text g1-socials-item-icon-behance"></span>
+		   <span class="g1-socials-item-tooltip">
+			   <span class="g1-socials-item-tooltip-inner">behance</span>
+		   </span>
+	   </a>
+	</li>
+			<li class="g1-socials-item g1-socials-item-dribbble">
+	   <a class="g1-socials-item-link" href="https://dribbble.com/Themezhub" target="_blank">
+		   <span class="g1-socials-item-icon g1-socials-item-icon-32 g1-socials-item-icon-text g1-socials-item-icon-dribbble"></span>
+		   <span class="g1-socials-item-tooltip">
+			   <span class="g1-socials-item-tooltip-inner">dribbble</span>
+		   </span>
+	   </a>
+	</li>
+			<li class="g1-socials-item g1-socials-item-instagram">
+	   <a class="g1-socials-item-link" href="https://www.instagram.com/themezhub/" target="_blank">
+		   <span class="g1-socials-item-icon g1-socials-item-icon-32 g1-socials-item-icon-text g1-socials-item-icon-instagram"></span>
+		   <span class="g1-socials-item-tooltip">
+			   <span class="g1-socials-item-tooltip-inner">instagram</span>
+		   </span>
+	   </a>
+	</li>
+			<li class="g1-socials-item g1-socials-item-pinterest">
+	   <a class="g1-socials-item-link" href="https://www.pinterest.com/themezhub/" target="_blank">
+		   <span class="g1-socials-item-icon g1-socials-item-icon-32 g1-socials-item-icon-text g1-socials-item-icon-pinterest"></span>
+		   <span class="g1-socials-item-tooltip">
+			   <span class="g1-socials-item-tooltip-inner">pinterest</span>
+		   </span>
+	   </a>
+	</li>
+	</ul>
+				</div>
+			</div>
+		</div>
+	
+	
+<div class=" g1-prefooter g1-prefooter-3cols g1-row g1-row-layout-page">
+	<div class="g1-row-inner">
+
+		<div class="g1-column g1-column-1of3">
+			<aside id="custom_html-11" class="widget_text widget widget_custom_html"><header><h2 class="g1-delta g1-delta-2nd widgettitle"><span>About Themez Hub</span></h2></header><div class="textwidget custom-html-widget"><p>At Themez Hub we provide the best & better articles, freebies and theme collections to help you build a better web. All content created by professional web designer for smart & creative web designers.</p>
+
+<p>We’re on a mission to help you build a smart & better web. That's why we provide you world best articles and web collections.</p></div></aside>		</div>
+
+		<div class="g1-column g1-column-1of3">
+			<aside id="adace_links_widget-4" class="widget widget_adace_links_widget"><header><h2 class="g1-delta g1-delta-2nd widgettitle"><span>Best Directory &#038; Listings WP Themes</span></h2></header><div class="adace-linklist-with-images-csstodo">
+	<ul class="adace-links-list transparent">
+						<li class="item">
+			<a href="https://1.envato.market/GYLyk">
+				<img width="590" height="300" src="https://themezhub.com/wp-content/uploads/listify.jpg" class="attachment-original size-original wp-post-image" alt="listify" />			</a>
+		</li>
+						<li class="item">
+			<a href="https://1.envato.market/Pq5QY">
+				<img width="590" height="300" src="https://themezhub.com/wp-content/uploads/listeo.png" class="attachment-original size-original wp-post-image" alt="listeo" />			</a>
+		</li>
+						<li class="item">
+			<a href="https://1.envato.market/DM46n">
+				<img width="590" height="300" src="https://themezhub.com/wp-content/uploads/wilcity.jpg" class="attachment-original size-original wp-post-image" alt="wilcity" />			</a>
+		</li>
+						<li class="item">
+			<a href="https://1.envato.market/7BY6y">
+				<img width="590" height="300" src="https://themezhub.com/wp-content/uploads/listingpro.jpg" class="attachment-original size-original wp-post-image" alt="listingpro" />			</a>
+		</li>
+		</ul>
+</div>
+</aside>		</div>
+
+		<div class="g1-column g1-column-1of3">
+			<aside id="adace_links_widget-5" class="widget widget_adace_links_widget"><header><h2 class="g1-delta g1-delta-2nd widgettitle"><span>Multipurpose Business Themes</span></h2></header><div class="adace-linklist-with-images-csstodo">
+	<ul class="adace-links-list transparent">
+						<li class="item">
+			<a href="https://1.envato.market/KYQ59">
+				<img width="590" height="300" src="https://themezhub.com/wp-content/uploads/bridge.png" class="attachment-original size-original wp-post-image" alt="Bridge" />			</a>
+		</li>
+						<li class="item">
+			<a href="https://1.envato.market/NYja2">
+				<img width="590" height="300" src="https://themezhub.com/wp-content/uploads/the7.png" class="attachment-original size-original wp-post-image" alt="The7" />			</a>
+		</li>
+						<li class="item">
+			<a href="https://1.envato.market/vgAdj">
+				<img width="590" height="301" src="https://themezhub.com/wp-content/uploads/be.png" class="attachment-original size-original wp-post-image" alt="be" />			</a>
+		</li>
+						<li class="item">
+			<a href="https://1.envato.market/EY4DK">
+				<img width="590" height="300" src="https://themezhub.com/wp-content/uploads/avada.jpg" class="attachment-original size-original wp-post-image" alt="avada" />			</a>
+		</li>
+		</ul>
+</div>
+</aside>		</div>
+
+	</div>
+	<div class="g1-row-background">
+		<div class="g1-row-background-media">
+		</div>
+	</div>
+</div><!-- .g1-prefooter -->
+
+		<div class="g1-footer g1-row g1-row-layout-page">
+			<div class="g1-row-inner">
+				<div class="g1-column">
+
+					<p class="g1-footer-text">Copyright © 2019 Themez Hub. Build With ❤ In India</p>
+
+					
+					<nav id="g1-footer-nav" class="g1-footer-nav"><ul id="g1-footer-nav-menu" class=""><li id="menu-item-5360" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5360"><a href="https://themezhub.com/write-for-us/">Write For Us</a></li>
+<li id="menu-item-5361" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5361"><a href="https://themezhub.com/about/">About Us</a></li>
+<li id="menu-item-4847" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4847"><a href="https://themezhub.com/advertise/">Advertise</a></li>
+<li id="menu-item-4846" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4846"><a href="https://themezhub.com/contact-us/">Contact us</a></li>
+<li id="menu-item-4845" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4845"><a href="https://themezhub.com/privacy-policy/">Privacy Policy</a></li>
+</ul></nav>
+					
+				</div><!-- .g1-column -->
+			</div>
+			<div class="g1-row-background">
+			</div>
+		</div><!-- .g1-row -->
+
+					<a href="../../../../booking-detail#page" class="g1-back-to-top">Back to Top</a>
+			</div><!-- #page -->
+
+<div class="g1-canvas-overlay">
+</div>
+
+</div><!-- .g1-body-inner -->
+
+<div id="g1-breakpoint-desktop">
+</div>
+
+
+<div class="g1-canvas g1-canvas-global g1-canvas-no-js">
+	<div class="g1-canvas-inner">
+		<div class="g1-canvas-content">
+			<a class="g1-canvas-toggle" href="../../../../booking-detail#">Close</a>
+
+				<!-- BEGIN .g1-primary-nav -->
+	<nav id="g1-canvas-primary-nav" class="g1-primary-nav"><ul id="g1-canvas-primary-nav-menu" class="g1-primary-nav-menu g1-menu-v"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-4785"><a href="https://themezhub.com" aria-current="page">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5431"><a href="https://themezhub.com/premium-templates/">Premium</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5143"><a href="../../../../booking-detail#">Design</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4790"><a href="https://themezhub.com/web-design/">Web Design</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4990"><a href="https://themezhub.com/free-templates/">Free Templates</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4842"><a href="https://themezhub.com/ui-ux/">UI/UX</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-4787"><a href="https://themezhub.com/freebies/">Freebies</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4798"><a href="https://themezhub.com/icons/">Icons</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5145"><a href="https://themezhub.com/ui-ux/">UI/UX</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4841"><a href="https://themezhub.com/tools/">Tools</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-4843"><a href="https://themezhub.com/wordpress/">WordPress</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4795"><a href="https://themezhub.com/wp-themes/">WP Themes</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5165"><a href="https://themezhub.com/plugins/">Plugins</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-4789"><a href="https://themezhub.com/resources/">Resources</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5148"><a href="https://themezhub.com/wp-themes/">WP Themes</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5146"><a href="https://themezhub.com/free-templates/">Free Templates</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5147"><a href="https://themezhub.com/tools/">Tools</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5149"><a href="https://themezhub.com/bimber-fonts/">Fonts</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5150"><a href="https://themezhub.com/ui-ux/">UI/UX</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5151"><a href="https://themezhub.com/icons/">Icons</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5401"><a href="https://themezhub.com/advertise/">Advertise</a></li>
+</ul></nav>		<!-- END .g1-primary-nav -->
+		<!-- BEGIN .g1-secondary-nav -->
+	<nav id="g1-canvas-secondary-nav" class="g1-secondary-nav"><ul id="g1-canvas-secondary-nav-menu" class="g1-secondary-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5360"><a href="https://themezhub.com/write-for-us/">Write For Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5361"><a href="https://themezhub.com/about/">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4847"><a href="https://themezhub.com/advertise/">Advertise</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4846"><a href="https://themezhub.com/contact-us/">Contact us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4845"><a href="https://themezhub.com/privacy-policy/">Privacy Policy</a></li>
+</ul></nav>		<!-- END .g1-secondary-nav -->
+		
+			<nav class="g1-quick-nav g1-quick-nav-short">
+			<ul class="g1-quick-nav-menu g1-menu g1-menu-v g1-menu-with-icons">
+				
+				
+											<li class="menu-item menu-item-type-g1-latest current-menu-item">
+							<a href="https://themezhub.com">
+								<span class="entry-flag entry-flag-latest"></span>
+								Latest							</a>
+						</li>
+					
+					
+					
+					
+							</ul>
+		</nav>
+	<ul id="g1-social-icons-3" class="g1-socials-items g1-socials-items-tpl-grid g1-socials-s">
+			<li class="g1-socials-item g1-socials-item-facebook">
+	   <a class="g1-socials-item-link" href="https://www.facebook.com/ThemezHubMarket/" target="_blank">
+		   <span class="g1-socials-item-icon g1-socials-item-icon-48 g1-socials-item-icon-text g1-socials-item-icon-facebook"></span>
+		   <span class="g1-socials-item-tooltip">
+			   <span class="g1-socials-item-tooltip-inner">facebook</span>
+		   </span>
+	   </a>
+	</li>
+			<li class="g1-socials-item g1-socials-item-twitter">
+	   <a class="g1-socials-item-link" href="https://twitter.com/themezhub77" target="_blank">
+		   <span class="g1-socials-item-icon g1-socials-item-icon-48 g1-socials-item-icon-text g1-socials-item-icon-twitter"></span>
+		   <span class="g1-socials-item-tooltip">
+			   <span class="g1-socials-item-tooltip-inner">twitter</span>
+		   </span>
+	   </a>
+	</li>
+			<li class="g1-socials-item g1-socials-item-behance">
+	   <a class="g1-socials-item-link" href="https://www.behance.net/themezhub0ef6" target="_blank">
+		   <span class="g1-socials-item-icon g1-socials-item-icon-48 g1-socials-item-icon-text g1-socials-item-icon-behance"></span>
+		   <span class="g1-socials-item-tooltip">
+			   <span class="g1-socials-item-tooltip-inner">behance</span>
+		   </span>
+	   </a>
+	</li>
+			<li class="g1-socials-item g1-socials-item-dribbble">
+	   <a class="g1-socials-item-link" href="https://dribbble.com/Themezhub" target="_blank">
+		   <span class="g1-socials-item-icon g1-socials-item-icon-48 g1-socials-item-icon-text g1-socials-item-icon-dribbble"></span>
+		   <span class="g1-socials-item-tooltip">
+			   <span class="g1-socials-item-tooltip-inner">dribbble</span>
+		   </span>
+	   </a>
+	</li>
+			<li class="g1-socials-item g1-socials-item-instagram">
+	   <a class="g1-socials-item-link" href="https://www.instagram.com/themezhub/" target="_blank">
+		   <span class="g1-socials-item-icon g1-socials-item-icon-48 g1-socials-item-icon-text g1-socials-item-icon-instagram"></span>
+		   <span class="g1-socials-item-tooltip">
+			   <span class="g1-socials-item-tooltip-inner">instagram</span>
+		   </span>
+	   </a>
+	</li>
+			<li class="g1-socials-item g1-socials-item-pinterest">
+	   <a class="g1-socials-item-link" href="https://www.pinterest.com/themezhub/" target="_blank">
+		   <span class="g1-socials-item-icon g1-socials-item-icon-48 g1-socials-item-icon-text g1-socials-item-icon-pinterest"></span>
+		   <span class="g1-socials-item-tooltip">
+			   <span class="g1-socials-item-tooltip-inner">pinterest</span>
+		   </span>
+	   </a>
+	</li>
+	</ul>
+
+
+<div role="search" class="search-form-wrapper">
+	<form method="get"
+	      class="g1-searchform-tpl-default search-form"
+	      action="https://themezhub.com/">
+		<label>
+			<span class="screen-reader-text">Search for:</span>
+			<input type="search" class="search-field"
+			       placeholder="Search &hellip;"
+			       value="" name="s"
+			       title="Search for:" />
+		</label>
+		<button class="search-submit">Search</button>
+	</form>
+
+	</div>
+			</div>
+		<div class="g1-canvas-background">
+		</div>
+	</div>
+</div>
+	<style type="text/css">
+		@media only screen and (max-width: 600px ) {
+			.adace-hide-on-mobile{
+				display:none !important;
+			}
+			.adace-hide-on-phone{
+				display:none !important;
+			}
+		}
+		@media only screen and (min-width: 601px  ) and  (max-width: 800px ){
+			.adace-hide-on-portrait{
+				display:none !important;
+			}
+		}
+		@media only screen and (min-width: 801px  ) and  (max-width: 960px ){
+			.adace-hide-on-landscape{
+				display:none !important;
+			}
+		}
+		@media only screen and (min-width: 601px  ) and  (max-width: 960px ){
+			.adace-hide-on-tablet{
+				display:none !important;
+			}
+		}
+		@media only screen and (min-width: 961px  ){
+			.adace-hide-on-desktop{
+				display:none !important;
+			}
+		}
+	</style>
+		<div id="snax-popup-content" class="snax white-popup mfp-hide">
+		
+<div class="snax-login-tab snax-tab-active">
+
+	<h2 class="g1-alpha">Log In</h2>
+
+	
+	
+	
+	
+		
+		<h4 class="snax-form-legend snax-form-legend-sign-in">Sign In</h4>
+
+		<div class="snax-login-form">
+			
+		<form name="loginform-in-popup" id="loginform-in-popup" action="https://themezhub.com/wp-login.php" method="post">
+			<div class="snax-validation-error snax-login-error-message"></div>
+			<p class="login-username">
+				<label for="user_login">Username or Email Address</label>
+				<input type="text" name="log" id="user_login" class="input" value="" size="20" />
+			</p>
+			<p class="login-password">
+				<label for="user_pass">Password</label>
+				<input type="password" name="pwd" id="user_pass" class="input" value="" size="20" />
+			</p>
+			<div id="snax-login-recaptcha"></div>
+			
+			<p class="login-submit">
+				<input type="submit" name="wp-submit" id="wp-submit" class="button button-primary" value="Log In" />
+				<input type="hidden" name="redirect_to" value="http://themezhub.com/" />
+			</p>
+			
+		</form>		</div>
+
+		<a class="snax-link-forgot-pass" href="https://themezhub.com/?snax_login_popup=forgot_password">Forgot password?</a>
+
+		
+	
+	
+</div>
+
+<div class="snax-forgot-pass-tab snax-tab-inactive">
+
+	<h2 class="g1-alpha g1-alpha-2nd">Forgot password?</h2>
+
+	<p>
+		Enter your account data and we will send you a link to reset your password.	</p>
+
+	
+	<div class="snax-forgot-pass-form">
+		<form name="lostpasswordform" id="lostpasswordform" action="https://themezhub.com/wp-login.php?action=lostpassword" method="post">
+			<div class="snax-validation-error snax-forgot-pass-error-message"></div>
+			<div class="snax-validation-error snax-forgot-pass-success-message"></div>
+			<p class="forgot-username">
+				<label for="user_login">Username or Email Address</label>
+				<input type="text" name="user_login" id="forgot-user_login" class="input" value="" size="20" placeholder="Username or Email Address" />
+			</p>
+			
+			<input type="hidden" name="redirect_to" value="http://themezhub.com/" />
+			<p class="forgot-submit">
+				<input type="submit" name="wp-submit" id="forgot-wp-submit" class="button button-primary button-large" value="Reset Password" />
+			</p>
+
+			<a href="../../../../booking-detail#" class="snax-back-to-login-tab">Back to Login</a>
+		</form>
+	</div>
+
+	
+</div>
+
+<div class="snax-reset-tab snax-tab-inactive">
+
+	<div class="snax-reset-pass-form">
+		<h2>Your password reset link appears to be invalid or expired.</h2>
+	</div>
+
+
+</div>
+
+<div class="snax-gdpr-tab snax-tab-inactive">
+
+	<h2 class="g1-alpha">Log in</h2>
+
+	<h3 class="g1-delta">Privacy Policy</h3>
+
+	<p>	To use social login you have to agree with the storage and handling of your data by this website. <a href="https://themezhub.com/privacy-policy/">Privacy Policy</a></p>
+
+	<a class="g1-button g1-button-l g1-button-wide g1-button-solid snax-login-gdpr-accept" href="../../../../booking-detail#">Accept</a>
+
+</div>
+	</div>
+	<div class="snax snax-notifications snax-notifications-off">
+	<div class="snax-notification">
+		<button class="snax-notification-close">Close</button>
+		<p class="snax-notification-text"></p>
+	</div>
+</div><div id="snax-popup-add-to-collection" class="snax white-popup mfp-hide">
+	<h2>Add to Collection</h2>
+
+	<div class="snax-add-to-collection"><!--  .snax-add-to-collection-loading -->
+		<form class="snax-form-collection-search">
+			<label>
+				Add new or search				<input name="snax-collection-search" type="search" placeholder="Add new&hellip;" autocomplete="off" />
+			</label>
+			<input name="snax-collection-save" type="submit" value="Save" disabled="disabled" />
+		</form>
+		<div class="snax-collections snax-collections-tpl-listxs">
+			<ul class="snax-collections-items">
+				<li class="snax-collections-item">
+					<div class="snax-collection snax-collection-tpl-listxs snax-collection-public">
+						<p class="snax-collection-title"><a>Public collection title</a></p>
+					</div>
+				</li>
+
+				<li class="snax-collections-item">
+					<div class="snax-collection snax-collection-tpl-listxs snax-collection-private">
+						<p class="snax-collection-title"><a>Private collection title</a></p>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="snax-collections-leading">
+			<div class="snax-collections-leading-icon"></div>
+			<h3 class="snax-collections-leading-title">No Collections</h3>
+			<p>Here you&#039;ll find all collections you&#039;ve created before.</p>
+		</div>
+	</div>
+</div>
+			<div class="mtsnb mtsnb-shown mtsnb-top mtsnb-absolute" id="mtsnb-5114" data-mtsnb-id="5114" style="background-color:#0862ee;color:#ffffff;">
+				<style type="text/css">
+					.mtsnb { position: absolute; -webkit-box-shadow: 0 3px 4px rgba(0, 0, 0, 0.05);box-shadow: 0 3px 4px rgba(0, 0, 0, 0.05);}
+					.mtsnb .mtsnb-container { width: 1080px; font-size: 15px;}
+					.mtsnb a { color: #19232e;}
+					.mtsnb .mtsnb-button { background-color: #19232e;}
+				</style>
+				<div class="mtsnb-container-outer">
+					<div class="mtsnb-container mtsnb-clearfix">
+												<div class="mtsnb-button-type mtsnb-content"><span class="mtsnb-text">Hurry Up! complete Job Board WordPress theme only $29. Limited Offer</span><a href="https://themeforest.net/item/workup-job-board-wordpress-theme/24261784" class="mtsnb-button">Click Here</a></div>											</div>
+															<a href="../../../../booking-detail#" class="mtsnb-hide" style="background-color:#0862ee;color:#ffffff;"><span>+</span></a>
+									</div>
+			</div>
+			<script>(function() {function addEventListener(element,event,handler) {
+	if(element.addEventListener) {
+		element.addEventListener(event,handler, false);
+	} else if(element.attachEvent){
+		element.attachEvent('on'+event,handler);
+	}
+}function maybePrefixUrlField() {
+	if(this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+		this.value = "http://" + this.value;
+	}
+}
+
+var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+if( urlFields && urlFields.length > 0 ) {
+	for( var j=0; j < urlFields.length; j++ ) {
+		addEventListener(urlFields[j],'blur',maybePrefixUrlField);
+	}
+}/* test if browser supports date fields */
+var testInput = document.createElement('input');
+testInput.setAttribute('type', 'date');
+if( testInput.type !== 'date') {
+
+	/* add placeholder & pattern to all date fields */
+	var dateFields = document.querySelectorAll('.mc4wp-form input[type="date"]');
+	for(var i=0; i<dateFields.length; i++) {
+		if(!dateFields[i].placeholder) {
+			dateFields[i].placeholder = 'YYYY-MM-DD';
+		}
+		if(!dateFields[i].pattern) {
+			dateFields[i].pattern = '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])';
+		}
+	}
+}
+
+})();</script><link rel='stylesheet' id='g1-socials-basic-screen-css'  href='http://themezhub.com/wp-content/plugins/g1-socials/css/screen-basic.min.css?ver=1.2.9' type='text/css' media='screen' />
+<link rel='stylesheet' id='g1-socials-snapcode-css'  href='http://themezhub.com/wp-content/plugins/g1-socials/css/snapcode.min.css?ver=1.2.9' type='text/css' media='screen' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/themezhub.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var snax_collections_js_config = "{\"ajax_url\":\"https:\\\/\\\/themezhub.com\\\/wp-admin\\\/admin-ajax.php\",\"home_url\":\"https:\\\/\\\/themezhub.com\",\"user_id\":0,\"post_id\":0,\"nonce\":\"ff8a302e6c\",\"history\":\"off\",\"i18n\":{\"are_you_sure_remove\":\"Entire collection with all items will be removed. Proceed?\",\"are_you_sure_clear_all\":\"All collection items will be removed. Proceed?\",\"removed\":\"Collection has been successfully removed\",\"removing_items\":\"Removing collection items...\"}}";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/plugins/snax/assets/js/collections.min.js?ver=1.32'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/plugins/snax/assets/js/jquery.magnific-popup/jquery.magnific-popup.min.js?ver=1.1.0'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/plugins/snax/assets/js/jquery.timeago/jquery.timeago.js?ver=1.5.2'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/plugins/snax/assets/js/jquery.timeago/locales/jquery.timeago.en.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var snax_plupload_i18n = {"queue_limit_exceeded":"You have attempted to queue too many files.","file_exceeds_size_limit":"%s exceeds the maximum upload size for this site.","zero_byte_file":"This file is empty. Please try another.","invalid_filetype":"This file type is not allowed. Please try another.","not_an_image":"This file is not an image. Please try another.","image_memory_exceeded":"Memory exceeded. Please try another smaller file.","image_dimensions_exceeded":"This is larger than the maximum size. Please try another.","default_error":"An error occurred in the upload. Please try again later.","missing_upload_url":"There was a configuration error. Please contact the server administrator.","upload_limit_exceeded":"You may only upload 1 file.","http_error":"HTTP error.","big_upload_failed":"Please try uploading this file with the %1$sbrowser uploader%2$s.","big_upload_queued":"%s exceeds the maximum upload size for the multi-file uploader when used in your browser.","io_error":"IO error.","security_error":"Security error.","file_cancelled":"File canceled.","upload_stopped":"Upload stopped.","dismiss":"Dismiss","crunching":"Crunching\u2026","deleted":"moved to the trash.","error_uploading":"\u201c%s\u201d has failed to upload.","are_you_sure":"Are you sure?","multi_drop_forbidden":"You can drop only one file here.","upload_failed":"Upload failed. Check if the file is a valid image.","invalid_url":"Upload failed. Provided URL is not valid."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/plugins/snax/assets/js/plupload/handlers.js?ver=1.32'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var snax_front_config = "{\"ajax_url\":\"https:\\\/\\\/themezhub.com\\\/wp-admin\\\/admin-ajax.php\",\"site_url\":\"http:\\\/\\\/themezhub.com\",\"autosave_interval\":60,\"use_login_recaptcha\":false,\"recaptcha_api_url\":\"https:\\\/\\\/www.google.com\\\/recaptcha\\\/api.js\",\"recaptcha_version\":\"20\",\"recaptcha_site_key\":\"\",\"enable_login_popup\":true,\"login_url\":\"https:\\\/\\\/themezhub.com\\\/?snax_login_popup\",\"login_popup_url_var\":\"snax_login_popup\",\"logged_in\":false,\"login_success_var\":\"snax_login_success\",\"i18n\":{\"are_you_sure\":\"Are you sure?\",\"recaptcha_invalid\":\"<strong>ERROR<\\\/strong>: The reCAPTCHA you entered is incorrect.\",\"passwords_dont_match\":\"Passwords don't match.\",\"link_invalid\":\"Your password reset link appears to be invalid or expired.\",\"password_set\":\"New password has been set\",\"duplicate_comment\":\"Duplicate comment detected; it looks as though you&#8217;ve already said that!\",\"comment_fail\":\"Comment Submission Failure\",\"see_all_replies\":\"See all replies\",\"user_is_logging\":\"Please wait. You are logging in&hellip;\",\"points_singular_tpl\":\"<strong>%d<\\\/strong> point\",\"points_plural_tpl\":\"<strong>%d<\\\/strong> points\"}}";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/plugins/snax/assets/js/front.js?ver=1.32'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/plugins/snax/assets/js/featured-image.js?ver=1.32'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wyr_front_config = "{\"ajax_url\":\"https:\\\/\\\/themezhub.com\\\/wp-admin\\\/admin-ajax.php\",\"error_msg\":\"Some error occurred while voting. Please try again.\"}";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/plugins/whats-your-reaction/js/front.js?ver=1.3'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/themes/bimber/js/flickity/flickity.pkgd.min.js?ver=2.0.9'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/themes/bimber/js/stickyfill/stickyfill.min.js?ver=2.0.3'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/themes/bimber/js/jquery.placeholder/placeholders.jquery.min.js?ver=4.0.1'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/themes/bimber/js/matchmedia/matchmedia.js'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/themes/bimber/js/matchmedia/matchmedia.addlistener.js'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/themes/bimber/js/picturefill/picturefill.min.js?ver=2.3.1'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/themes/bimber/js/jquery.waypoints/jquery.waypoints.min.js?ver=4.0.0'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/themes/bimber/js/libgif/libgif.js'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/themes/bimber/js/enquire/enquire.min.js?ver=2.1.2'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-includes/js/wp-a11y.min.js?ver=5.2.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://themezhub.com/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var bimber_front_config = "{\"ajax_url\":\"https:\\\/\\\/themezhub.com\\\/wp-admin\\\/admin-ajax.php\",\"timeago\":\"on\",\"sharebar\":\"on\",\"microshare\":\"off\",\"i18n\":{\"menu\":{\"go_to\":\"Go to\"},\"newsletter\":{\"subscribe_mail_subject_tpl\":\"Check out this great article: %subject%\"},\"bp_profile_nav\":{\"more_link\":\"More\"}},\"comment_types\":[\"wp\",\"fb\"],\"auto_load_limit\":\"0\",\"auto_play_videos\":false,\"use_gif_player\":true,\"setTargetBlank\":true,\"useWaypoints\":true,\"stack\":\"app\"}";
+var bimber_front_microshare = "[]";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/themes/bimber/js/front.js?ver=7.0.4'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/themes/bimber-child-theme/modifications.js'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/plugins/page-links-to/js/new-tab.min.js?ver=3.1.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpgdprcData = {"ajaxURL":"https:\/\/themezhub.com\/wp-admin\/admin-ajax.php","ajaxSecurity":"fe161d5124","isMultisite":"","path":"\/","blogId":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/plugins/wp-gdpr-compliance/assets/js/front.js?ver=1558538489'></script>
+<script type='text/javascript' src='http://themezhub.com/wp-includes/js/wp-embed.min.js?ver=5.2.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mc4wp_forms_config = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://themezhub.com/wp-content/plugins/mailchimp-for-wp/assets/js/forms-api.min.js?ver=4.5.3'></script>
+<!--[if lte IE 9]>
+<script type='text/javascript' src='http://themezhub.com/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js?ver=4.5.3'></script>
+<![endif]-->
+<div class="g1-popup g1-popup-newsletter">
+	<div class="g1-popup-overlay">
+	</div>
+
+	<div class="g1-popup-inner">
+		
+<div id="bimber-mc4wp-form-counter-2" class="g1-newsletter g1-newsletter-vertical ">
+	<div class="g1-newsletter-cover">
+					<div class="g1-newsletter-cover-background" style="background-image:url(https://themezhub.com/wp-content/uploads/a-1.jpg);">
+			</div>
+			</div>
+
+	<div class="g1-newsletter-content">
+		<h3 class="g1-mega g1-mega-1st">Hey Friend!<br>Before You Go…</h3>
+
+					<p>Get the latest web design &amp; development news, freebies, product announcements, and much more!</p>
+		
+		<div class="g1-newsletter-form-wrap">
+			<script>(function() {
+	if (!window.mc4wp) {
+		window.mc4wp = {
+			listeners: [],
+			forms    : {
+				on: function (event, callback) {
+					window.mc4wp.listeners.push({
+						event   : event,
+						callback: callback
+					});
+				}
+			}
+		}
+	}
+})();
+</script><!-- Mailchimp for WordPress v4.5.3 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-2" class="mc4wp-form mc4wp-form-2593" method="post" data-id="2593" data-name="Themez Hub Subscriber" ><div class="mc4wp-form-fields"><p>
+<input type="email" name="EMAIL" placeholder="Enter our email address" required />
+</p>
+
+<p>
+	<input type="submit" value="Subscribe" />
+</p></div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1565875145" /><input type="hidden" name="_mc4wp_form_id" value="2593" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-2" /><div class="mc4wp-response"></div><p class="g1-meta g1-newsletter-privacy">Don't worry, we don't spam</p></form><!-- / Mailchimp for WordPress Plugin -->		</div>
+	</div>
+</div><!-- .g1-newsletter -->
+
+		<a href="../../../../booking-detail#" class="g1-popup-closer">Close</a>
+	</div>
+</div><!-- .g1-popup -->
+</body>
+</html>

@@ -1,0 +1,36 @@
+<section >
+    <!-- <form [formGroup]="ngFormSendPago" (ngSubmit) ="okPago()" > -->
+        <div class="container" *ngIf="this._uw.order">
+            <div class="row">
+                <div class="col-md-6">
+                	<div class="heading_s2">
+                        <span>.</span>
+                		<h5>Pedido enviado con éxito</h5>
+                			Su número de pedido es: {{this._uw.order.npedido}}
+                    </div>
+                </div>
+                <div class="col-md-6" > 
+                    <!-- <div [formGroup]="myGroup"> -->
+                      <div class="heading_s2">
+                        <h5>En breve le contactaremos! Si lo desea puede ponerse en contacto con nostros a traves de los numeros telefonicos 414 0070255 / 414 7529202</h5>
+                    </div>
+                    <!--  <input type="hidden" name="npedido"  formControlName="npedido"  value="{{this._uw.order.npedido}}"  [ngClass]="{ 'is-invalid': submitted && fval.npedido.errors }"> -->
+                    <!-- <ngx-file-picker
+					    [uploadType]="'multi'"
+					    (validationError)= "onValidationError($event)"
+					    [adapter]="adapter"
+					    [fileExtensions]="['pdf', 'jpeg','jpg', 'png', 'PNG', 'mp4', 'css', 'docx', 'txt','webp']"
+					    (uploadSuccess)="onUploadSuccess($event)"
+					    (removeSuccess)="onRemoveSuccess($event)"
+					    [showPreviewContainer]="true"
+					    [accept]="'image/*'"
+					    (fileAdded)="onFileAdded($event)">
+					</ngx-file-picker>	
+                       <button class="btn btn-default btn-borderd btn-radius " type="submit" (click)="okPago()"  >  Enviar</button>
+                 <button type="button" (click)="okPago()"  >Enviar</button> -->
+             <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    <!-- </form> -->
+</section>
