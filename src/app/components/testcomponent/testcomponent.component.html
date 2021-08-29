@@ -5,33 +5,56 @@
         <section id="about-us" class="about-us-section home-secound" style="padding-top:125px;">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-6"style="text-align: center;">
                         
                             <img src="assets/assetsmanu/img/about/abt.jpg" alt="">
                     </div>
                     <!-- /form -->
 
-                    <div class="col-md-5">
+                    <div class="col-md-6">
                         <div class="about-us-text">
                             <div class="section-title relative-position mb20 headline text-left">
                                 <span class="subtitle ml42 text-uppercase">Manuel Ramos</span>
                                 <h2>Marketing digital  <span>para su negocio</span>
                                 </h2>
-                                <p>Soy Manuel Ramos y he ayudado a miles de profesionales y empresas a conseguir clientes, ventas y dinero con su sitio web.</p>
+                                <p style="text-transform: none;">Soy Manuel Ramos y he ayudado a miles de profesionales y empresas a conseguir clientes, ventas y dinero con su sitio web.</p>
                             </div>
                             <div class="register-fomr-title text-center">
                                     <h3 class="bold-font">Descubrelo aqui!</h3>
                             </div>
                             <div class="about-content-text">
                                 <div class="register-form-area" >
-                                    <form class="contact_form" action="index.html" method="POST" enctype="multipart/form-data">
-                                        <div class="contact-info">
+                                    <form class="contact_form"  [formGroup]="ngFormRegister" (ngSubmit) ="onRegister()">
+                                 <!--        <div class="contact-info">
                                             <input class="name" name="name" type="text" placeholder="Ingresa tu nombre." style="width: 100%;">
                                         </div>
                                         
                                         <div class="contact-info">
                                             <input class="email" name="email" type="email" placeholder="y tu email." style="width: 100%;">
-                                        </div>
+                                        </div> -->
+                                            <div class="form-group form-focus">
+
+                                                <input type="text" class="form-control floating" id="name" formControlName="name" placeholder="Full Name" [(ngModel)]="user.name" [ngClass]="{'is-invalid': submitted && fval.name.errors }"required>
+
+                                                <div *ngIf="submitted && fval.name.errors" class="invalid-feedback">
+                                                    <div *ngIf="fval.name.errors.required">
+                                                    Full Name is required and must be a valid name
+                                                    </div>
+                                                 
+                                                </div>
+                                                <label class="focus-label">Nombre</label>
+                                            </div>
+
+                                         
+                                            <div class="form-group form-focus">
+                                             
+                                                    <input type="email" class="form-control floating" id="email" placeholder="Email" formControlName="email" [(ngModel)]="user.email" required [ngClass]="{ 'is-invalid': submitted && fval.email.errors }">
+                                                <div *ngIf="submitted && fval.email.errors" class="invalid-feedback">
+                                                    <div *ngIf="fval.email.errors.required">Email is required</div>
+                                                    <div *ngIf="fval.email.errors.email">Enter a valid email address</div>
+                                                </div>
+                                                <label class="focus-label">e-mail</label>
+                                            </div>
 
                                         <div class="checkbox save-credit" align="left">
                                                 <label>
@@ -46,6 +69,7 @@
                                             <button type="submit" value="Submit"> <a routerLink="question"> Comenzar </a> </button> 
                                         </div> 
                                     </form>
+
                                 </div>
                                 
                             </div>

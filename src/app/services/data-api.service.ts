@@ -33,50 +33,52 @@ export class DataApiService {
   		});
   	updateTix(tix :TixInterface, id: string){
 		// let token = this.authService.getToken();
-		const url_api=`https://db.buckapi.com:3032/api/tixes/${id}`;
+		const url_api=`https://db.buckapi.com:3062/api/tixes/${id}`;
 		return this.http
 		.put<TixInterface>(url_api, tix)
 		.pipe(map(data => data));
 	}
 	getAllTixs(){
-		const url_api = 'https://db.buckapi.com:3032/api/tixes?filter[where][status]=activated';
+		const url_api = 'https://db.buckapi.com:3062/api/tixes?filter[where][status]=activated';
 		return this.http.get(url_api);
 	}
+
+
 		getAllTixsReturn(){
-		const url_api = 'https://db.buckapi.com:3032/api/tixes?filter[where][status]=activated';
+		const url_api = 'https://db.buckapi.com:3062/api/tixes?filter[where][status]=activated';
 		return (this.tixs = this.http.get(url_api));
 	}
 		getAllCategories(){
-		const url_api = 'https://db.buckapi.com:3032/api/categories?filter[where][status]=activated';
+		const url_api = 'https://db.buckapi.com:3062/api/categories?filter[where][status]=activated';
 		return this.http.get(url_api);
 	}
  		getTamano(){
-		const url_api = 'https://db.buckapi.com:3032/api/tixes?filter[where][status]=activated';
+		const url_api = 'https://db.buckapi.com:3062/api/tixes?filter[where][status]=activated';
 		return (this.tixs = this.http.get(url_api));
 	}
 	getTamanoIni(){
-		const url_api = 'https://db.buckapi.com:3032/api/tixes?filter[where][initload]=activated';
+		const url_api = 'https://db.buckapi.com:3062/api/tixes?filter[where][initload]=activated';
 		return (this.tixs = this.http.get(url_api));
 	}
  	
 
 	getAllTixsInitload(){
-		const url_api = 'https://db.buckapi.com:3032/api/tixes?filter[where][initload]=activated';
+		const url_api = 'https://db.buckapi.com:3062/api/tixes?filter[where][initload]=activated';
 		return this.http.get(url_api);
 	}
 	getInfo(){
-		const url_api=`https://db.buckapi.com:3032/api/infos/`;
+		const url_api=`https://db.buckapi.com:3062/api/infos/`;
 		this.info = this.http.get(url_api);
 		return (this.info);
 	}
 	saveSale(sale :SaleInterface){
-		const url_api='https://db.buckapi.com:3032/api/sale';
+		const url_api='https://db.buckapi.com:3062/api/sale';
 		return this.http
 		.post<SaleInterface>(url_api, sale)
 		.pipe(map(data => data));
 	}
 	saveOrder(order :OrderInterface){
-		const url_api='https://db.buckapi.com:3032/api/order';
+		const url_api='https://db.buckapi.com:3062/api/order';
 		return this.http
 		.post<OrderInterface>(url_api, order)
 		.pipe(map(data => data));
@@ -90,13 +92,13 @@ sendMailNewBookAppToAdmin(book){
 	
 	updateOrder(order :OrderInterface, id: string){
 		// let token = this.authService.getToken();
-		const url_api=`https://db.buckapi.com:3032/api/order/${id}`;
+		const url_api=`https://db.buckapi.com:3062/api/order/${id}`;
 		return this.http
 		.put<OrderInterface>(url_api, order)
 		.pipe(map(data => data));
 	}
 	getOrderByNpedido(npedido: string){
-		const url_api = `https://db.buckapi.com:3032/api/order?filter[where][npedido]=${npedido}`;
+		const url_api = `https://db.buckapi.com:3062/api/order?filter[where][npedido]=${npedido}`;
 		this.order = this.http.get(url_api);
 		return (this.order);
 

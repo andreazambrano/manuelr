@@ -18,15 +18,15 @@ export class AuthService {
 		"Content-Type":"application/json"
 		});
 
-	registerUser(name :string, email: string, password: string){
-		const url_api ='https://db.buckapi.com:3025/api/Users';
+	registerUser(name :string, email: string,response: string,usertype: string, status: string, password: string){
+		const url_api ='https://db.buckapi.com:3062/api/Users';
 		return this.http
-		.post<UserInterface>(url_api,{name,email,password},{headers:this.headers})
+		.post<UserInterface>(url_api,{name,email,response,usertype,status,password},{headers:this.headers})
 		.pipe(map(data => data));
 	}
 
 	loginUser(email:string, password:string):Observable<any>{
-		const url_api ='https://db.buckapi.com:3025/api/Users/login?include=user';
+		const url_api ='https://db.buckapi.com:3062/api/Users/login?include=user';
 		return this.http
 		.post<UserInterface>(url_api,{email,password},{headers:this.headers})
 		.pipe(map(data => data));

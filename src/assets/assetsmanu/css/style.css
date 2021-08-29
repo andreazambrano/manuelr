@@ -413,7 +413,7 @@ h1, h2, h3, h4, h5, h6 {
 .main-menu-container {
   position: fixed;
   width: 100%;
-  padding: 25px 0px;
+  /*padding: 25px 0px;*/
   -webkit-transition: .3s all ease-in-out;
   -o-transition: .3s all ease-in-out;
   transition: .3s all ease-in-out;

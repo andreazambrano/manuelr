@@ -2,21 +2,33 @@
 	<div class="container">
 		<div class="section-title mb20 headline text-center">
 			<span class="subtitle text-uppercase">Curso gratis</span>
-			<h2><span>Selecciona</span> la opcion que se acerque a ti.</h2>
+			<h3 style="color: white;"> <span>Hablando</span> de los negocios por internet, cual es el mayor obstaculo que tienes?</h3>
 		</div>
 		
 		<div class="register-form-area search-course mb30 relative-position">
-			<form class="contact_form" action="index-2.html#" method="POST" enctype="multipart/form-data">
+			<form class="contact_form"  enctype="multipart/form-data">
 				
-				<select>
-					<option value="9" selected="">Elije una opcion.</option>
-					<option value="10">Web Design</option>
-					<option value="11">Web Development</option>
-					<option value="12">Php Core</option>
-				</select>
-				
-				<div class="nws-button text-center  gradient-bg text-capitalize" style="right: 34px;">
-					<button type="submit" value="Submit"> <a routerLink="thank"> Busca tu curso </a> </button> 
+			  <div class="text-center mt-5" >
+ <!--                <h4>Selected value is {{radioSel.name}}</h4> -->
+
+                <div>
+                  <ul class="list-group">
+                        <li class="list-group-item"  *ngFor="let item of itemsList">
+                          <input type="radio" [(ngModel)]="radioSelected" name="list_name" value="{{item.value}}" (change)="onItemChange(item)" style="width: 20%" /> 
+                          <span style="font-size: 25px;">
+                          	
+                          {{item.name}}
+                          </span>
+                          
+                        </li>
+                  </ul>
+                </div>
+
+         <!--        <h5>{{radioSelectedString}}</h5> -->
+
+                </div>
+				<div class=" text-center  gradient-bg text-capitalize" style="right: 34px;">
+					<button (click)="ok()"> <a > Busca tu curso </a> </button> 
 				</div> 
 			</form>
 		</div>

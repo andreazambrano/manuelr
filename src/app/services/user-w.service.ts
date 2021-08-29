@@ -60,6 +60,7 @@ export class UserWService {
 	tixsOrigin:any[]=[];
 	tixsDiscount:any={};
 	tixsNew:any={};
+	suscriber:any={};
 	total:number=0;
 	totalBooks:number;
 	totalDiscount:number=0;
