@@ -32,9 +32,9 @@
                                         <div class="contact-info">
                                             <input class="email" name="email" type="email" placeholder="y tu email." style="width: 100%;">
                                         </div> -->
-                                            <div class="form-group form-focus">
+                                            <div class="form-group ">
 
-                                                <input type="text" class="form-control floating" id="name" formControlName="name" placeholder="Full Name" [(ngModel)]="user.name" [ngClass]="{'is-invalid': submitted && fval.name.errors }"required>
+                                                <input type="text" class="form-control " id="name" formControlName="name" placeholder="Full Name" [(ngModel)]="user.name" [ngClass]="{'is-invalid': submitted && fval.name.errors }"required>
 
                                                 <div *ngIf="submitted && fval.name.errors" class="invalid-feedback">
                                                     <div *ngIf="fval.name.errors.required">
@@ -46,9 +46,9 @@
                                             </div>
 
                                          
-                                            <div class="form-group form-focus">
+                                            <div class="form-group ">
                                              
-                                                    <input type="email" class="form-control floating" id="email" placeholder="Email" formControlName="email" [(ngModel)]="user.email" required [ngClass]="{ 'is-invalid': submitted && fval.email.errors }">
+                                                    <input type="email" class="form-control " id="email" placeholder="Email" formControlName="email" [(ngModel)]="user.email" required [ngClass]="{ 'is-invalid': submitted && fval.email.errors }">
                                                 <div *ngIf="submitted && fval.email.errors" class="invalid-feedback">
                                                     <div *ngIf="fval.email.errors.required">Email is required</div>
                                                     <div *ngIf="fval.email.errors.email">Enter a valid email address</div>

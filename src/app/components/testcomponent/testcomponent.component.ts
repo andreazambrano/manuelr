@@ -35,11 +35,7 @@ public user : UserInterface ={
 
   };
   number=0;
-   title = 'app';
-  radioSel:any;
-  radioSelected:string;
-  radioSelectedString:string;
-  itemsList: Item[] = ITEMS;
+
        // public suscriber:any[]=[];
   constructor(
         private authService: AuthService,
@@ -50,20 +46,10 @@ public user : UserInterface ={
     private route:ActivatedRoute,
     private router: Router
     ) {
- this.itemsList = ITEMS;
-      this.radioSelected = "item_3";
-      this.getSelecteditem();
+
 
      }
 
-   getSelecteditem(){
-      this.radioSel = ITEMS.find(Item => Item.value === this.radioSelected);
-      this.radioSelectedString = JSON.stringify(this.radioSel);
-    }
-
-    onItemChange(item){
-      this.getSelecteditem();
-    }
 
  ngFormRegister: FormGroup;
     submitted = false;
@@ -76,56 +62,21 @@ public aleatorio(a,b) {
     return Math.round(Math.random()*(b-a)+parseInt(a));
   }
 
-// public savePatient(patient){
-//      return this.dataApi.savePatient(this.suscriber)
-//         .subscribe(
-//              patientSubmit => this.router.navigate(['/thank'])
-//         );
-//         this.waiting=false;
-// }
 onRegister(){
     if (this.ngFormRegister.valid){
       //this.waiting=true;
-  
       this.suscriber.status='new';
       this.suscriber.name=this.user.name;
       this.suscriber.email=this.user.email;
-            this.suscriber.usertype='suscriber';
-            this.suscriber.response="response text"; 
       this.suscriber.usertype='suscriber';
- this.number=this.aleatorio(10000,99999);
-          let suscriberIdString = this.number.toString();
-          this.suscriber.password=suscriberIdString;
-         
-      // this.authService
-      //   .registerUser(
-      //     this.user.name, 
-      //     this.user.email, 
-      //     this.suscriber.response, 
-      //     this.suscriber.usertype, 
-      //     this.suscriber.status, 
-      //     this.suscriber.password
-      //     )
-      //   .subscribe(user => {
-      //     this._uw.suscriber=user;
-      //     this.authService.setUser(user);
-      //     const token = user.id;
-      //     this._uw.userd=token;  
-      //     this.authService.setToken(token);
-      //   },
-      //   res => {
-      //     this.msgError = res.error.error.details.messages.email;
-      //     this.onIsError();
-      //   });
+      this.suscriber.response="response text"; 
       this.suscriber.usertype='suscriber';
+      this.number=this.aleatorio(10000,99999);
+      let suscriberIdString = this.number.toString();
+      this.suscriber.password=suscriberIdString;
       this._uw.suscriber=this.suscriber;
-       this.router.navigate(['/question']);
-      setTimeout(() => {
-      this.isError = false;
-//      this.savePatient(this.suscriber);
-    }, 5000);
-   
-
+      this._uw.steep1=true;
+      this.router.navigate(['/question']);
     } else {
       this.onIsError();
     }

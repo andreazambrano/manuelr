@@ -52,7 +52,7 @@ private location: Location,
     ) {
 
  this.itemsList = ITEMS;
-      this.radioSelected = "item_3";
+      this.radioSelected = "C";
       this.getSelecteditem();
  }
   getSelecteditem(){
@@ -97,6 +97,10 @@ private location: Location,
 
      
   ngOnInit() {
+    if(!this._uw.steep1){
+ this.router.navigate(['']);
+
+    }
   	    	this.suscriber=this._uw.suscriber;
   }
     

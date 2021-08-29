@@ -32,6 +32,7 @@ export class UserWService {
 	feet:number=0;
 	file:any[]=[];
 	filter:boolean=false;
+	steep1:boolean=false;
 	foredit:any={};
 	globalCategory:boolean=true;
 	idCard:string;

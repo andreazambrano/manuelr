@@ -1657,7 +1657,7 @@ button.alt-menu-btn.float-left {
 
 .register-form-area input, .register-form-area select, .register-form-area textarea {
   height: 50px;
-  width: 80%;
+  /*width: 80%;*/
   background-color: #fff;
   padding: 0 15px;
   border-radius: 10px;
