@@ -21,16 +21,16 @@ export class TestcomponentComponent implements OnInit {
 public user : UserInterface ={
         name:"",
         email:"",
-        usertype:"",
         password:"",
+        usertype:"",
         status:"",
       };
   suscriber = {
  name:"",
         email:"",
         usertype:"",
-        response:"",
         password:"",
+        response:"",
         status:"",
 
   };

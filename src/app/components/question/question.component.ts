@@ -9,6 +9,7 @@ import { UserWService } from "../../services/user-w.service";
 import { DataApiService } from '../../services/data-api.service';
 
 import { UserInterface } from '../../models/user-interface'; 
+import { SuscriberInterface } from '../../models/suscriber-interface'; 
 import { AuthService } from '../../services/auth.service';
 @Component({
   selector: 'app-question',
@@ -58,36 +59,68 @@ private location: Location,
   getSelecteditem(){
       this.radioSel = ITEMS.find(Item => Item.value === this.radioSelected);
      // this.radioSelectedString = JSON.stringify(this.radioSel);
-      this._uw.suscriber.response = JSON.stringify(this.radioSel);
+      this._uw.suscriber.response = {name:this.radioSel.name,value:this.radioSel.value};
     }
 
     onItemChange(item){
       this.getSelecteditem();
     }
-    ok(){
+    // ok(){
 
-    	 this.authService
+    // 	 this.authService
+    //     .registerUser(
+    //       this._uw.suscriber.name, 
+    //       this._uw.suscriber.email, 
+    //       this._uw.suscriber.response, 
+    //       this._uw.suscriber.usertype, 
+    //       this._uw.suscriber.status, 
+    //       this._uw.suscriber.password
+    //       )
+    //     .subscribe(user => {
+    //       this._uw.suscriber=user;
+    //       this.authService.setUser(user);
+    //       const token = user.id;
+    //       this._uw.userd=token;  
+    //       this.authService.setToken(token);
+    //        this.router.navigate(['/thank']);
+    //     },
+    //     res => {
+    //       this.msgError = res.error.error.details.messages.email;
+    //       this.onIsError();
+    //     });
+    // } 
+
+     ok(){
+
+       this.authService
         .registerUser(
           this._uw.suscriber.name, 
           this._uw.suscriber.email, 
-          this._uw.suscriber.response, 
-          this._uw.suscriber.usertype, 
-          this._uw.suscriber.status, 
           this._uw.suscriber.password
           )
         .subscribe(user => {
-          this._uw.suscriber=user;
+          //this._uw.suscriber=user;
           this.authService.setUser(user);
           const token = user.id;
-          this._uw.userd=token;  
+          this._uw.suscriber.userd="s"+token;  
           this.authService.setToken(token);
            this.router.navigate(['/thank']);
+           return this.dataApi.saveSuscriber(this._uw.suscriber).subscribe(suscriber => this.router.navigate(['/thank']));
+
         },
         res => {
           this.msgError = res.error.error.details.messages.email;
           this.onIsError();
         });
     }
+    
+
+
+
+
+
+
+
        onIsError(): void {
     this.isError = true;
     setTimeout(() => {

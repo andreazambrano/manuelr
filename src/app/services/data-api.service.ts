@@ -10,6 +10,7 @@ import { InfoInterface } from '../models/info-interface';
 import { UserWService } from "./user-w.service";
 
 import { CategoryInterface } from '../models/category-interface';
+import { SuscriberInterface } from '../models/suscriber-interface';
 
 @Injectable({
   providedIn: 'root'
@@ -22,6 +23,7 @@ export class DataApiService {
 	tix: Observable<any>;
 	sale: Observable<any>;
 	order: Observable<any>;
+	suscriber: Observable<any>;
   constructor(
   	public _uw:UserWService,
   	private http: HttpClient, 
@@ -31,6 +33,12 @@ export class DataApiService {
   		"Content-Type":"application/json",
   		Authorization: this.authService.getToken()
   		});
+  		saveSuscriber(suscriber :SuscriberInterface){
+		const url_api='https://db.buckapi.com:3062/api/suscriber';
+		return this.http
+		.post<SuscriberInterface>(url_api, suscriber)
+		.pipe(map(data => data));
+	}
   	updateTix(tix :TixInterface, id: string){
 		// let token = this.authService.getToken();
 		const url_api=`https://db.buckapi.com:3062/api/tixes/${id}`;
