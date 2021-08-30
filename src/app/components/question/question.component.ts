@@ -29,8 +29,8 @@ public user : UserInterface ={
         email:"",
         usertype:"",
         response:"",
-        password:"",
         status:"",
+        userd:""
 
   };
       submitted = false;
@@ -38,6 +38,7 @@ public user : UserInterface ={
     public waiting = false;
     public msgError = '';
    title = 'app';
+   
   radioSel:any;
   radioSelected:string;
   radioSelectedString:string;
@@ -91,7 +92,7 @@ private location: Location,
     // } 
 
      ok(){
-
+      this.waiting=true;
        this.authService
         .registerUser(
           this._uw.suscriber.name, 
@@ -104,8 +105,14 @@ private location: Location,
           const token = user.id;
           this._uw.suscriber.userd="s"+token;  
           this.authService.setToken(token);
-           this.router.navigate(['/thank']);
-           return this.dataApi.saveSuscriber(this._uw.suscriber).subscribe(suscriber => this.router.navigate(['/thank']));
+            this.suscriber.name=this._uw.suscriber.name;
+            this.suscriber.email=this._uw.suscriber.email;
+            this.suscriber.usertype=this._uw.suscriber.usertype;
+            this.suscriber.response=this._uw.suscriber.response;
+            this.suscriber.status=this._uw.suscriber.status;
+            this.suscriber.userd=this._uw.suscriber.userd;
+          // this.router.navigate(['/thank']);
+           return this.dataApi.saveSuscriber(this.suscriber).subscribe(suscriber => this.router.navigate(['/thank']));
 
         },
         res => {
@@ -134,7 +141,7 @@ private location: Location,
  this.router.navigate(['']);
 
     }
-  	    	this.suscriber=this._uw.suscriber;
+  	    //	this.suscriber=this._uw.suscriber;
   }
     
 

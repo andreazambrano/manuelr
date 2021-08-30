@@ -27,7 +27,15 @@
          <!--        <h5>{{radioSelectedString}}</h5> -->
 
                 </div>
-				<div class=" text-center  gradient-bg text-capitalize" style="right: 34px;">
+                <div style="text-align: center;"  [hidden]="!waiting">
+												
+				<img src="assets/assetsmanu/img/tenor.gif"	 style="max-height: 32px;max-width: 32px; text-align: center;	">
+				<p></p>
+				</div>
+				<div class=" text-center  gradient-bg text-capitalize" style="right: 34px;" disabled="disabled" [hidden]="!waiting">
+					<button (click)="ok()"> <a > Busca tu curso </a> </button> 
+				</div> 
+				<div class=" text-center  gradient-bg text-capitalize" style="right: 34px;"  [hidden]="waiting">
 					<button (click)="ok()"> <a > Busca tu curso </a> </button> 
 				</div> 
 			</form>
