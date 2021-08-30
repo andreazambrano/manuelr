@@ -15,9 +15,9 @@
                         <div class="about-us-text">
                             <div class="section-title relative-position mb20 headline text-left">
                                 <span class="subtitle ml42 text-uppercase">Manuel Ramos</span>
-                                <h2>Marketing digital  <span>para su negocio</span>
+                                <h2>Marketing digital  <span>para tu negocio</span>
                                 </h2>
-                                <p style="text-transform: none;">Soy Manuel Ramos y he ayudado a miles de profesionales y empresas a conseguir clientes, ventas y dinero con su sitio web.</p>
+                                <p style="text-transform: none;">Soy Manuel Ramos y he ayudado a miles de profesionales y empresas a conseguir clientes, ventas y dinero con tu sitio web.</p>
                             </div>
                             <div class="register-fomr-title text-center">
                                     <h3 class="bold-font">Descubrelo aqui!</h3>
@@ -34,33 +34,33 @@
                                         </div> -->
                                             <div class="form-group ">
 
-                                                <input type="text" class="form-control " id="name" formControlName="name" placeholder="Full Name" [(ngModel)]="user.name" [ngClass]="{'is-invalid': submitted && fval.name.errors }"required>
+                                                <label class="focus-label">Tu nombre</label>
+                                                <input type="text" class="form-control " id="name" formControlName="name" placeholder="Nombre" [(ngModel)]="user.name" [ngClass]="{'is-invalid': submitted && fval.name.errors }"required>
 
                                                 <div *ngIf="submitted && fval.name.errors" class="invalid-feedback">
                                                     <div *ngIf="fval.name.errors.required">
-                                                    Full Name is required and must be a valid name
+                                                    El nombre es requerido
                                                     </div>
                                                  
                                                 </div>
-                                                <label class="focus-label">Nombre</label>
                                             </div>
 
                                          
                                             <div class="form-group ">
                                              
+                                                <label class="focus-label">Tu e-mail</label>
                                                     <input type="email" class="form-control " id="email" placeholder="Email" formControlName="email" [(ngModel)]="user.email" required [ngClass]="{ 'is-invalid': submitted && fval.email.errors }">
                                                 <div *ngIf="submitted && fval.email.errors" class="invalid-feedback">
-                                                    <div *ngIf="fval.email.errors.required">Email is required</div>
-                                                    <div *ngIf="fval.email.errors.email">Enter a valid email address</div>
+                                                    <div *ngIf="fval.email.errors.required">El email es requerido</div>
+                                                    <div *ngIf="fval.email.errors.email">Ingrese una direccion de correo valida</div>
                                                 </div>
-                                                <label class="focus-label">e-mail</label>
                                             </div>
 
                                         <div class="checkbox save-credit" align="left">
                                                 <label>
                                                     <input type="checkbox" value="" >
                                                     <span class="cr text-uppercase bold-font"><i class="cr-icon fa fa-check"></i></span>
-                                                    Aceptar politicas de privacidad
+                                                    Acepto las politicas de privacidad
 
                                                 </label>
                                             </div>
@@ -144,12 +144,12 @@
                         
                     </div>
                 </div>
-                <h3>Experimenta la emocion de ganar dinero en <span>INTERNET, incluso si nunca haz ganado nada.</span> </h3>
+                <h3>Experimenta la emocion de ganar dinero en <span>INTERNET, incluso si nunca has ganado nada.</span> </h3>
                 
                   
                  <div class="about-btn " align="center" >
                     <div class="genius-btn gradient-bg text-center text-uppercase ul-li-block bold-font">
-                        <a href="index-1.html#">IR AL CURSO GRATIS<i class="fas fa-caret-right"></i></a>
+                        <a href="#about-us">IR AL CURSO GRATIS<i class="fas fa-caret-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -194,7 +194,7 @@
                                 </div>
                                <div class="about-btn "  align="center">
                                     <div class="genius-btn gradient-bg text-center text-uppercase ul-li-block bold-font">
-                                        <a href="index-1.html#">Si quiero acceder al curso GRATIS <i class="fas fa-caret-right"></i></a>
+                                        <a href="#about-us">Si quiero acceder al curso GRATIS <i class="fas fa-caret-right"></i></a>
                                     </div>
                                     
                                 </div>
