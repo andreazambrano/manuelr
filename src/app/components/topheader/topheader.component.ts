@@ -78,6 +78,9 @@ export class TopheaderComponent implements OnInit {
       password: ['', [Validators.required]]
       });
   }
+    get fval() {
+  return this.ngFormLogin.controls;
+  }
    onIsError(): void {
     this.isError = true;
     setTimeout(() => {
