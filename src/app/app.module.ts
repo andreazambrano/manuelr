@@ -70,6 +70,7 @@ import { SinglecourseComponent } from './components/singlecourse/singlecourse.co
 import { ThankComponent } from './components/thank/thank.component';
 import { TopheaderComponent } from './components/topheader/topheader.component';
 import { TestcomponentComponent } from './components/testcomponent/testcomponent.component';
+import { CoursesComponent } from './components/courses/courses.component';
 
 
 @NgModule({
@@ -105,7 +106,8 @@ import { TestcomponentComponent } from './components/testcomponent/testcomponent
     QuestionComponent,
     SinglecourseComponent,
     ThankComponent,
-    TopheaderComponent,    
+    TopheaderComponent,
+    CoursesComponent,    
   ],
   imports: [
     BrowserModule,

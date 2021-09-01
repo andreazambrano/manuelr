@@ -6,17 +6,17 @@
 		<section id="course-details" class="course-details-section" style="padding-top: 125px;">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-9">
+					<div class="col-md-4">
 						<div class="course-details-item">
 							<div class="course-single-pic mb30">
-								<img src="assets/assetsmanu/img/course/cs-1.jpg" alt="">
+								<img src="{{tix.images[0]}}" alt="">
 							</div>
 							<div class="course-single-text">
 								<div class="course-title mt10 headline relative-position">
-									<h3><a >Academia mundial <b>de emprendedores </b></a> <span class="trend-badge text-uppercase bold-font"><i class="fas fa-bolt"></i> VENTAS</span></h3>
+									<h3><a > <b>{{tix.tittle}} </b></a> <span class="trend-badge text-uppercase bold-font"><i class="fas fa-bolt"></i> {{tix.modules.length}} modulos</span></h3>
 								</div>
 								<div class="course-details-content">
-									<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+									<p>{{tix.description}}</p>
 									
 								</div>
 
@@ -27,13 +27,13 @@
 
 					</div>
 
-					<div class="col-md-3">
+					<div class="col-md-2">
 						<div class="side-bar">
 							<div class="course-side-bar-widget">
-								<h3>Price <span>$69.99</span></h3>
-								<div class="genius-btn gradient-bg text-center text-uppercase float-left bold-font">
+								<h3>Price <span>{{tix.costPrice}}</span></h3>
+								<!-- <div class="genius-btn gradient-bg text-center text-uppercase float-left bold-font">
 									<a >Sigueme <i class="fas fa-caret-right"></i></a>
-								</div>
+								</div> -->
 								<div class="like-course">
 									<a ><i class="fas fa-heart"></i></a>
 								</div>
@@ -42,9 +42,8 @@
 							<div class="couse-feature ul-li-block">
 								<ul>
 									
-									<li>Languaje  <span>Español</span></li>
-									<li>Video  <span>8 Hours</span></li>
-									<li>Duration <span>30 Days</span></li>
+									<li>Modulos  <span>{{tix.modules.length}} </span></li>
+									
 								</ul>
 							</div>
 
@@ -60,135 +59,36 @@
 
 							<div class="affiliate-market-accordion">
 								<div id="accordion" class="panel-group">
-									<div class="panel">
+									<div class="panel" *ngFor="let module of tix.modules;let i = index" (click)="go(module.link)">
 										<div class="panel-title" id="headingOne">
 											<div class="ac-head">
 												
-												<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-													<span>01</span>	Presencia online
+												<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+													<span>{{i+1}}</span>	{{module.tittle}}
 												</button>
 												<div class="course-by">
 													Por <b>Manuel Ramos</b> 
 												</div>
-												<div class="leanth-course">
-													<span>60 Minuttes</span>
-													
-												</div>
+											
 											</div>
 										</div>
-										<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+										<div aria-labelledby="headingOne" data-parent="#accordion">
 											<div class="panel-body">
-												Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore.
+												<a (click)="go(module.link)" style="cursor: pointer;">
+													
+
+												{{module.link}}
+												</a>
 											</div>
 										</div>
 									</div>
-									<div class="panel">
-										<div class="panel-title" id="headingTwo">
-											<div class="ac-head">
-												
-												<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-													<span>02</span>	Captacion de prospectos
-												</button>
-												<div class="course-by">
-													Por <b>Manuel Ramos</b> 
-												</div>
-												<div class="leanth-course">
-													<span>60 Minuttes</span>
-													
-												</div>
-											</div>
-										</div>
-										<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-											<div class="panel-body">
-												Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam consectetuer adipiscing elit, sed diam nonummy.
-											</div>
-										</div>
-									</div>
-									<div class="panel">
-										<div class="panel-title" id="headingThree">
-											<div class="ac-head">
-												<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-													<span>03</span>	Traficos a tus ofertas 
-												</button>
-												<div class="course-by">
-													Por <b>Manuel Ramos</b> 
-												</div>
-												<div class="leanth-course">
-													<span>60 Minuttes</span>
-													
-												</div>
-											</div>
-										</div>
-										<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-											<div class="panel-body">
-												Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam consectetuer adipiscing elit, sed diam nonummy.
-											</div>
-										</div>
-									</div>
-									<div class="panel">
-										<div class="panel-title" id="headingFoure">
-											<div class="ac-head">
-												<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFoure" aria-expanded="true" aria-controls="collapseFoure">
-													<span>04</span>	Aprende a vender 
-												</button>
-												<div class="course-by">
-													Por <b>Manuel Ramos</b> 
-												</div>
-												<div class="leanth-course">
-													<span>60 Minuttes</span>
-													
-												</div>
-											</div>
-										</div>
-										<div id="collapseFoure" class="collapse" data-parent="#accordion">
-											<div class="panel-body">
-												Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam volutpat. Ut wisi enim ad minim veniam consectetuer adipiscing elit, sed diam nonummy.
-											</div>
-										</div>
-									</div>
+								
 								</div>
 							</div>
 						</div>
 						<!-- /market guide -->
 					</div>
-					<div class="col-md-6 photo-list ul-li">
-						<ul>
-							<li>
-								<h3>Introduccion</h3>
-								<img src="assets/assetsmanu/img/course/cs-1.jpg" alt="" >
-								<div class="blakish-overlay"></div>
-								<div class="pop-up-icon">
-									<a href="assets/assetsmanu/img/course/cs-1.jpg" data-lightbox="roadtrip">	</a>
-								</div>
-							</li>
-							<li>
-								<h3>Bono: el factor mas importante </h3>
-							
-								<img src="assets/assetsmanu/img/course/cs-1.jpg" alt="">
-								<div class="blakish-overlay"></div>
-								<div class="pop-up-icon">
-									<a href="assets/assetsmanu/img/course/cs-1.jpg" data-lightbox="roadtrip">	</a>
-								</div>
-							</li>
-							
-
-						</ul>
-
-						
-						<!-- <div class="course-single-pic mb30">
-							<h3>Introduccion</h3>
-							<img src="assets/assetsmanu/img/course/cs-1.jpg" alt="" >
-						</div>	
-						<div class="course-single-pic mb30">
-							<h3>Bono: el factor mas importante </h3>
-							
-							<img src="assets/assetsmanu/img/course/cs-1.jpg" alt="">
-							<div class="blakish-overlay"></div>
-							<div class="pop-up-icon">
-								<a href="assets/assetsmanu/img/course/cs-1.jpg" data-lightbox="roadtrip">	<i class="fas fa-search"></i></a>
-							</div>
-						</div>	 -->
-					</div>
+		
 				</div>
 			</div>
 		</section>

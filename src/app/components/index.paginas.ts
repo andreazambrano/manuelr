@@ -21,6 +21,7 @@ export { ShadicontactComponent } from "./shadicontact/shadicontact.component";
 export { ShadiproductComponent } from "./shadiproduct/shadiproduct.component";
 export {QuestionComponent } from "./question/question.component";
 export {ContactComponent } from "./contact/contact.component";
+export {CoursesComponent } from "./courses/courses.component";
 export {TestcomponentComponent } from "./testcomponent/testcomponent.component";
 
 export {SinglecourseComponent } from "./singlecourse/singlecourse.component";

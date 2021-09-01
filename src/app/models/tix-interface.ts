@@ -5,6 +5,7 @@ export interface TixInterface{
 	cantD?:number;
 	capacidad?:number;
 	category?:string;
+	costPrice?:string;
 	categoryFilter?:string;
 	categorySuper?:string;
 	check?:Array<boolean>;
@@ -21,6 +22,7 @@ export interface TixInterface{
 	duracion?:string;
 	globalPrice?:number;
 	images?:Array<string>;
+	modules?:Array<any>;
 	modelo?:string;
 	new?:boolean;
 	notes?:string;
@@ -37,5 +39,6 @@ export interface TixInterface{
 	tips?:string;
 	typePrice?:string;
 	userd?:string;
+	tittle?:string;
 	
 }

@@ -1,0 +1,51 @@
+<section id="course-page" class="course-page-section" style="padding-top: 100px;">
+	<div class="container">
+		<div class="row">
+			<div class="genius-post-item">	
+				<div class="best-course-area best-course-v2">
+					<div class="row">
+						<div class="col-md-4" *ngFor="let tix of tixs" routerLink="../singlecourse/{{tix.id}}" style="cursor: pointer;">
+							<div class="best-course-pic-text relative-position">
+								<div class="best-course-pic relative-position">
+									<img src="{{tix.images[0]}}" alt=""style="max-height: 200px;">
+									<div class="trend-badge-2 text-center text-uppercase">
+										<i class="fas fa-bolt"></i>
+										<span>{{tix.tittle}}</span>
+									</div>
+									<div class="course-price text-center gradient-bg">
+										<span>Precio {{tix.costPrice}}</span>
+									</div>
+									<!-- <div class="course-rate ul-li">
+										<ul>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+											<li><i class="fas fa-star"></i></li>
+										</ul>
+									</div> -->
+							<!-- 		<div class="course-details-btn">
+										<a >{{tix.description}} <i class="fas fa-arrow-right"></i></a>
+									</div> -->
+									<div class="blakish-overlay"></div>
+								</div>
+								<div class="best-course-text">
+									<div class="course-title mb20 headline relative-position">
+										<h3><a >{{tix.tittle}}</a></h3>
+									</div>
+									<div class="course-meta">
+										<span class="course-category"><a >{{tix.description}}</a></span>
+									
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /course -->
+
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

@@ -23,10 +23,11 @@ import {
 	ShadiproductComponent,
 	QuestionComponent,
 	ContactComponent,
+	CoursesComponent,
 	TestcomponentComponent,
 	SinglecourseComponent,
 	ThankComponent,
-		TopheaderComponent,
+	TopheaderComponent,
 	FooterComponent
 
 	}from "./components/index.paginas";
@@ -57,8 +58,9 @@ const app_routes: Routes = [
 	{path:'fruitcart',component:FruitcartComponent},*/
 	{path:'question',component:QuestionComponent},
 	{path:'contact',component:ContactComponent},
+	{path:'courses',component:CoursesComponent},
 
-	{path:'singlecourse',component:SinglecourseComponent},
+	{path:'singlecourse/:id',component:SinglecourseComponent},
 	{path:'thank',component:ThankComponent},
 	{path:'pago',component:PagoComponent},
 	{path:'**',pathMatch:'full',redirectTo:''}

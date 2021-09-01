@@ -39,6 +39,13 @@ export class DataApiService {
 		.post<SuscriberInterface>(url_api, suscriber)
 		.pipe(map(data => data));
 	}
+		getCourseDetailById(id:string){
+		let indice = id;
+		const url_api=`https://db.buckapi.com:3062/api/tixes/${indice}`;
+		this.tix = this.http.get(url_api);
+		return (this.tix);
+	}
+	
   	updateTix(tix :TixInterface, id: string){
 		// let token = this.authService.getToken();
 		const url_api=`https://db.buckapi.com:3062/api/tixes/${id}`;
