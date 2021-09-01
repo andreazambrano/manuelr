@@ -11,7 +11,7 @@
                     </div>
                     <!-- /form -->
 
-                    <div class="col-md-6">
+                    <div class="col-md-6" id="register">
                         <div class="about-us-text">
                             <div class="section-title relative-position mb20 headline text-left">
                                 <span class="subtitle ml42 text-uppercase">Manuel Ramos</span>
@@ -22,7 +22,7 @@
                             <div class="register-fomr-title text-center">
                                     <h3 class="bold-font">Descubrelo aqui!</h3>
                             </div>
-                            <div class="about-content-text">
+                            <div class="about-content-text" >
                                 <div class="register-form-area" >
                                     <form class="contact_form"  [formGroup]="ngFormRegister" (ngSubmit) ="onRegister()">
                                  <!--        <div class="contact-info">
@@ -52,7 +52,7 @@
                                                     <input type="email" class="form-control " id="email" placeholder="Email" formControlName="email" [(ngModel)]="user.email" required [ngClass]="{ 'is-invalid': submitted && fval.email.errors }">
                                                 <div *ngIf="submitted && fval.email.errors" class="invalid-feedback">
                                                     <div *ngIf="fval.email.errors.required">El email es requerido</div>
-                                                    <div *ngIf="fval.email.errors.email">Ingrese una direccion de correo valida</div>
+                                                    <div *ngIf="fval.email.errors.email">Ingrese una dirección de correo valida</div>
                                                 </div>
                                             </div>
 
@@ -60,7 +60,7 @@
                                                 <label>
                                                     <input type="checkbox" value="" >
                                                     <span class="cr text-uppercase bold-font"><i class="cr-icon fa fa-check"></i></span>
-                                                    Acepto las politicas de privacidad
+                                                    Acepto las políticas de privacidad
 
                                                 </label>
                                             </div>
@@ -112,10 +112,10 @@
                                     <i class="text-gradiant flaticon-favorites-button"></i>
                                 </div>
                                 <div class="category-title">
-                                    <h4>Trafico a tus ofertas</h4>
+                                    <h4>Tráfico a tus ofertas</h4>
                                 </div>
                                 <div class="category-title">
-                                    <p align="left">Conoce como generar trafico gratis usando el SEO para que sean tus prospectos quienes te busquen a ti. Ademas te enseñare el trafico pagado.</p>
+                                    <p align="left">Conoce como generar tráfico gratis usando el SEO para que sean tus prospectos quienes te busquen a ti. Ademas te enseñare el tráfico pagado.</p>
                                 </div>
                                 
                                 
@@ -133,7 +133,7 @@
                                     
                                 </div>
                                 <div class="category-title">
-                                    <p align="left">Puedes canalizar prospectos a tus ofertas con buenas practicas y metodos, aqui aprenderas como y cuando usas esas estrategias.</p>
+                                    <p align="left">Puedes canalizar prospectos a tus ofertas con buenas prácticas y metodos, aquí aprenderas como y cuando usar esas estrategias.</p>
                                 </div>
                             </div>
 
@@ -144,12 +144,12 @@
                         
                     </div>
                 </div>
-                <h3>Experimenta la emocion de ganar dinero en <span>INTERNET, incluso si nunca has ganado nada.</span> </h3>
+                <h3>Experimenta la emoción de ganar dinero en <span>INTERNET, incluso si nunca has ganado nada.</span> </h3>
                 
                   
                  <div class="about-btn " align="center" >
                     <div class="genius-btn gradient-bg text-center text-uppercase ul-li-block bold-font">
-                        <a href="#about-us">IR AL CURSO GRATIS<i class="fas fa-caret-right"></i></a>
+                        <a href="#register">IR AL CURSO GRATIS<i class="fas fa-caret-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -163,7 +163,7 @@
                     <div class="section-title mb20 headline text-center "  >
                         
                         <h2>Traido para ti 100%  <span>GRATIS.</span></h2>
-                        <h3><span>Cortesia de : Academia Mundial de Emprendedores</span> </h3>
+                        <h3><span>cortesía de : Academia Mundial de Emprendedores</span> </h3>
                     </div>
 
                 </div>
@@ -179,22 +179,22 @@
                         <div class="about-us-text">
                             <div class="section-title relative-position mb20 headline text-center "  >
                                 <span class="subtitle ml42 text-uppercase">Aprende a vender</span>
-                                <h2>Para quien es este <span>Curso?</span></h2>
+                                <h2>¿Para quién es este <span>Curso?</span></h2>
                                 
                             </div>
                             <div class="about-content-text">
                                 
                                 <div class="about-list mb65 ul-li-block "  >
                                     <ul>
-                                        <li>Si quieres aprender a generar negocios en internet, que te generer ingresos mes a mes</li>
-                                        <li>Si quieres aprender a vender por internet, cualquier producto o servicio de manera profesional</li>
-                                        <li>Si quieres lograr tu independencia financiera y nunca mas depender de un salarioo de un empleo</li>
-                                        <li>Si anteriormente intentaste vender un productoo servicio y no lo consegiste, o tus resultados no son los que esperabas este curso es para ti y 100% GRATIS</li>
+                                        <li>Si quieres aprender a generar negocios en internet, que te generar ingresos mes a mes.</li>
+                                        <li>Si quieres aprender a vender por internet, cualquier producto o servicio de manera profesional.</li>
+                                        <li>Si quieres lograr tu independencia financiera y nunca más depender de un salario de un empleo.</li>
+                                        <li>Si anteriormente intentaste vender un producto servicio y no lo conseguiste, o tus resultados no son los que esperabas este curso es para ti y 100% GRATIS.</li>
                                     </ul>
                                 </div>
                                <div class="about-btn "  align="center">
                                     <div class="genius-btn gradient-bg text-center text-uppercase ul-li-block bold-font">
-                                        <a href="#about-us">Si quiero acceder al curso GRATIS <i class="fas fa-caret-right"></i></a>
+                                        <a href="#register">Si quiero acceder al curso GRATIS <i class="fas fa-caret-right"></i></a>
                                     </div>
                                     
                                 </div>
