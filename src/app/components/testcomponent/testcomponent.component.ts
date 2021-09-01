@@ -75,6 +75,7 @@ onRegister(){
       let suscriberIdString = this.number.toString();
       this.suscriber.password=suscriberIdString;
       this._uw.suscriber=this.suscriber;
+      this._uw.isLogged=true;
       this._uw.steep1=true;
       this.router.navigate(['/question']);
     } else {

@@ -31,17 +31,40 @@
                                             <div class="modal-body">
                                                 
                                                 <!-- <div class="alt-text text-center"><a >OR SIGN IN</a> </div> -->
-                                                <form class="contact_form" action="index-2.html#" method="POST" enctype="multipart/form-data">
-                                                    <div class="contact-info">
-                                                        <input class="name" name="Email" type="email" placeholder="Tu@email.com*">
+                                              
+
+                                                <form [formGroup]="ngFormLogin" (ngSubmit) ="onLogin()">
+                                                    <div class="form-group form-focus">
+                                                        <input type="email" class="form-control floating" id="email" placeholder="Email" formControlName="email" [(ngModel)]="user.email"required [ngClass]="{ 'is-invalid': submitted && fval.email.errors }">
+                                                        <label class="focus-label">Usuario</label>
+                                                            <div *ngIf="submitted && fval.email.errors" class="invalid-feedback">
+                                                                <div *ngIf="fval.email.errors.required">El email es requerido</div>
+                                                                <div *ngIf="fval.email.errors.email">Ingrese una direccion email valida</div>
+                                                            </div>
                                                     </div>
-                                                    <div class="contact-info">
-                                                        <input class="pass" name="name" type="password" placeholder="Tu password*">
+                                                    <div class="form-group form-focus">
+                                                        <input   type="password"id="password" placeholder="*******" formControlName="password" [(ngModel)]="user.password" [ngClass]="{ 'is-invalid': submitted && fval.password.errors}"  required class="form-control floating">
+                                                            <div *ngIf="submitted && fval.password.errors"class="invalid-feedback">
+                                                                <div ngClass="fval.password.errors.required">
+                                                                La contraseña es requerida.
+                                                                </div>
+
+                                                            </div>
+                                                        <label class="focus-label">Contraseña</label>
                                                     </div>
-                                                    <div class="nws-button text-center white text-capitalize">
-                                                        <button type="submit" value="Submit">Entrar</button> 
-                                                    </div> 
+                                                
+                                                    <div class="text-right">
+                                                        <a class="forgot-link" href="">Has olvidado tu contraseña ?</a>
+                                                    </div>
+                                                    <button class="btn btn-primary btn-block btn-lg login-btn" type="submit">Iniciar Session</button>
+                                                    <div class="login-or">
+                                                        <span class="or-line"></span>
+                                                        <span class="span-or">o</span>
+                                                    </div>
+                                                  
+                                                    <div class="text-center dont-have">Eres nuevo usuario? <a routerLink="/register">Registrarse</a></div>
                                                 </form>
+
                                                 <div class="log-in-footer text-center">
                                                     <p>* campos requeridos.</p>
                                                    <!--  <p>** At least one telephone number is required.</p> -->
@@ -58,7 +81,7 @@
                                         <li class="menu-item-has-children ul-li-block">
                                             <a routerLink="">Home</a>
                                         </li>
-                                        <li><a routerLink="courses">Cursos</a></li>
+                                        <li [hidden]="!_uw.isLogged"><a routerLink="courses">Cursos</a></li>
                                         <li><a routerLink="blog">Blog</a></li>
                                         <li><a routerLink="contact">Contacto</a></li>
                                        
@@ -72,7 +95,7 @@
                                     <ul>
                                         <li><a routerLink="">Home</a>
                                         </li>
-                                           <li><a routerLink="courses">Cursos</a></li>
+                                           <li [hidden]="!_uw.isLogged"><a routerLink="courses" >Cursos</a></li>
                                         <li><a routerLink="blog">Blog</a></li>
                                         <li><a routerLink="contact">Contacto</a></li>
                                         
