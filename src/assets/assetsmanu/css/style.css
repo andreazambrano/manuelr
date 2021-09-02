@@ -318,7 +318,8 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 7px;
   position: relative; }
   .section-title .subtitle:before, .section-title .subtitle:after {
-    content: ".";
+   /* content: ".";*/
+   content: "";
     font-size: 70px;
     left: -45px;
     pointer-events: none;
@@ -4346,7 +4347,7 @@ ul.product-tab li.active:after {
 .radio .cr {
   position: relative;
   display: inline-block;
-  border: 1px solid #f0f0f0;
+  border: 1px solid #03a9f4;
   border-radius: .25em;
   width: 1.3em;
   height: 1.3em;
