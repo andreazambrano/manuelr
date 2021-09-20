@@ -6,7 +6,8 @@
 		<section id="course-details" class="course-details-section" style="padding-top: 125px;">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4" style="flex: 0 0 33.333333%;">
+
+					<div class="col-md-8">
 						<div class="course-details-item">
 							<div class="course-single-pic mb30">
 								<img src="{{tix.images[0]}}" alt="">
@@ -27,7 +28,7 @@
 
 					</div>
 
-					<div class="col-md-2">
+					<div class="col-md-4" style="flex: 0 0 33.333333%;">
 						<div class="side-bar">
 							<div class="course-side-bar-widget">
 
@@ -54,7 +55,16 @@
 						</div>
 					</div>
 
-					<div class="col-md-6">
+
+				</div>
+				
+			</div>
+		</section>
+
+		<section id="latest-area" class="latest-area-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
 						<div class="affiliate-market-guide mb65">
 							<div class="section-title-2 mb20 headline text-left">
 								<h2><span>Modulos del curso</span></h2>
@@ -78,13 +88,22 @@
 											
 											</div>
 										</div>
-										<div aria-labelledby="headingOne" data-parent="#accordion">
+										<!-- <div aria-labelledby="headingOne" data-parent="#accordion">
 											<div class="panel-body">
 												<a (click)="go(module.link)" style="cursor: pointer;">
 													
 
 												{{module.link}}
 												</a>
+											</div>
+										</div> -->
+										<div class="latest-video-poster relative-position mb20">
+											<img src="assets/assetsmanu/img/banner/v-1.jpg" alt="">
+											<div class="video-play-btn text-center gradient-bg">
+												<a class="popup-with-zoom-anim" (click)="go(module.link)"><i class="fas fa-play"></i>
+													{{module.link}}
+												</a>
+												
 											</div>
 										</div>
 									</div>
@@ -97,12 +116,7 @@
 
 
 				</div>
-			</div>
-		</section>
-
-		<!-- <section id="latest-area" class="latest-area-section">
-			<div class="container">
-				<div class="row">
+				<!-- <div class="row">
 					
 					<div class="col-md-4">
 						<div class="section-title-2 mb65 headline text-left">
@@ -122,8 +136,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</div>
-		</section> -->
-	<!-- End of course details section
-		============================================= -->
+		</section>
+	

@@ -112,6 +112,7 @@ private location: Location,
             this.suscriber.status=this._uw.suscriber.status;
             this.suscriber.userd=this._uw.suscriber.userd;
           // this.router.navigate(['/thank']);
+          this.dataApi.sendMailSuscriptor(this.suscriber);
            return this.dataApi.saveSuscriber(this.suscriber).subscribe(suscriber => this.router.navigate(['/thank']));
 
         },

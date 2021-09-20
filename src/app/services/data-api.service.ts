@@ -104,6 +104,13 @@ sendMailNewBookAppToAdmin(book){
 		.post(url_api, book)
 		.pipe(map(data => data));
 	}
+
+	sendMailSuscriptor(suscriber){
+		const url_api='https://email.buckapi.com:3019/landing';
+		return this.http
+		.post(url_api, suscriber)
+		.pipe(map(data => data));
+	}
 	
 	updateOrder(order :OrderInterface, id: string){
 		// let token = this.authService.getToken();

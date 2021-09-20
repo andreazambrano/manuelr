@@ -3,5 +3,7 @@ export interface SuscriberInterface{
 	name?:string;
 	response?:string;
 	usertype?:string;
+	email?:string;
+	messageSubject?:string;
 	status?:string;
 }

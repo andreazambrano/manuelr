@@ -32,7 +32,7 @@ public tix:TixInterface ={
     this.dataApi.getCourseDetailById(id).subscribe(tix => (this.tix = tix)); 
   }
   go(link){
-  window.open(link, "_blank");
+  window.open(link);
 }
   ngOnInit() {
   	  this.tix.images=[];
