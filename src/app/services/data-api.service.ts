@@ -98,15 +98,10 @@ export class DataApiService {
 		.post<OrderInterface>(url_api, order)
 		.pipe(map(data => data));
 	}
-sendMailNewBookAppToAdmin(book){
-		const url_api='https://email.penguinscleaning.ca:3005/newBookAppToAdmin';
-		return this.http
-		.post(url_api, book)
-		.pipe(map(data => data));
-	}
+
 
 	sendMailSuscriptor(suscriber){
-		const url_api='https://email.buckapi.com:3019/landing';
+		const url_api='https://email.buckapi.com:3019/Manuelramos.js';
 		return this.http
 		.post(url_api, suscriber)
 		.pipe(map(data => data));

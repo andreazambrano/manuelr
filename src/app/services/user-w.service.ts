@@ -69,6 +69,7 @@ export class UserWService {
 	totalProducts:number=0;
 	totalTixs:number;
 	type:string;
+	pecuario:string;
 	typeGlobal:boolean=false;
 	typeSize:boolean=false;
 	user:any={};
