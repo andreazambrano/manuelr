@@ -38,7 +38,7 @@ public tix:TixInterface ={
 //  window.open(link);
 }
  player: YT.Player;
-  private id: string = 'vMt1Uz5DhHQ';
+  public id: string = 'vMt1Uz5DhHQ';
 
   savePlayer(player) {
     this.player = player;
