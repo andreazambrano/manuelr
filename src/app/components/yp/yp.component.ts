@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class YpComponent implements OnInit {
   player: YT.Player;
-  private id: string = 'DYF5FjMb9Cg';
+  public id: string = 'DYF5FjMb9Cg';
 
   savePlayer(player) {
     this.player = player;
