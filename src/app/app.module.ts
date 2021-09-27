@@ -5,6 +5,9 @@ import { HttpModule } from '@angular/http';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { ArchwizardModule } from 'angular-archwizard';
 import { HttpClientModule } from '@angular/common/http';
+//import { YoutubePlayerModule } from 'ngx-youtube-player';
+import { NgxYoutubePlayerModule } from 'ngx-youtube-player';
+
 //RUTAS
 import { app_routing } from "./app.routes";       
 import { AppComponent } from './app.component';
@@ -71,6 +74,7 @@ import { ThankComponent } from './components/thank/thank.component';
 import { TopheaderComponent } from './components/topheader/topheader.component';
 import { TestcomponentComponent } from './components/testcomponent/testcomponent.component';
 import { CoursesComponent } from './components/courses/courses.component';
+import { YpComponent } from './components/yp/yp.component';
 
 
 @NgModule({
@@ -107,10 +111,13 @@ import { CoursesComponent } from './components/courses/courses.component';
     SinglecourseComponent,
     ThankComponent,
     TopheaderComponent,
-    CoursesComponent,    
+    CoursesComponent,
+    YpComponent,    
   ],
   imports: [
     BrowserModule,
+//    YoutubePlayerModule.forRoot(),
+    NgxYoutubePlayerModule.forRoot(), 
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     HttpClientModule,
     FormsModule,

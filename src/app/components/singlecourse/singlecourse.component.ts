@@ -32,8 +32,21 @@ public tix:TixInterface ={
     this.dataApi.getCourseDetailById(id).subscribe(tix => (this.tix = tix)); 
   }
   go(link){
-  window.open(link);
+    this.id=link;
+    
+        this.player.loadVideoById(link);
+//  window.open(link);
 }
+ player: YT.Player;
+  private id: string = 'vMt1Uz5DhHQ';
+
+  savePlayer(player) {
+    this.player = player;
+    console.log('player instance', player);
+  }
+  onStateChange(event) {
+    console.log('player state', event.data);
+  }
   ngOnInit() {
   	  this.tix.images=[];
      this.getCourseDetail(this.route.snapshot.paramMap.get('id'));

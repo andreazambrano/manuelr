@@ -18,9 +18,9 @@ export class UserWService {
 	card:any={};
 	cardsResult:any[]=[];
 	currency:number=1;
-		comision:number=1;
-		paypal:boolean=false;
-		zelle:boolean=false;
+	comision:number=1;
+	paypal:boolean=false;
+	zelle:boolean=false;
 	categorySelected:string;
 	editingTrek:boolean=false;
 	errorFormAffiliate:boolean;

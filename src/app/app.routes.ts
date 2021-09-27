@@ -27,6 +27,7 @@ import {
 	TestcomponentComponent,
 	SinglecourseComponent,
 	ThankComponent,
+	YpComponent,
 	TopheaderComponent,
 	FooterComponent
 
@@ -62,6 +63,7 @@ const app_routes: Routes = [
 
 	{path:'singlecourse/:id',component:SinglecourseComponent},
 	{path:'thank',component:ThankComponent},
+	{path:'yp',component:YpComponent},
 	{path:'pago',component:PagoComponent},
 	{path:'**',pathMatch:'full',redirectTo:''}
 	];

@@ -26,5 +26,6 @@ export {TestcomponentComponent } from "./testcomponent/testcomponent.component";
 
 export {SinglecourseComponent } from "./singlecourse/singlecourse.component";
 export {ThankComponent } from "./thank/thank.component";
+export {YpComponent } from "./yp/yp.component";
 export {TopheaderComponent } from "./topheader/topheader.component";
 export {FooterComponent } from "./footer/footer.component";

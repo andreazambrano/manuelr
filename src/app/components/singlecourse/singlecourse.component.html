@@ -7,28 +7,8 @@
 			<div class="container">
 				<div class="row">
 
-					<div class="col-md-8">
-						<div class="course-details-item">
-							<div class="course-single-pic mb30">
-								<img src="{{tix.images[0]}}" alt="">
-							</div>
-							<div class="course-single-text">
-								<div class="course-title mt10 headline relative-position">
-									<h3><a > <b>{{tix.tittle}} </b></a> <span class="trend-badge text-uppercase bold-font"><i class="fas fa-bolt"></i> {{tix.modules.length}} modulos</span></h3>
-								</div>
-								<div class="course-details-content">
-									<p>{{tix.description}}</p>
-									
-								</div>
-
-								
-							</div>
-						</div>
-						<!-- /course-details -->
-
-					</div>
-
-					<div class="col-md-4" style="flex: 0 0 33.333333%;">
+					<div class="col-md-6">
+						<div >
 						<div class="side-bar">
 							<div class="course-side-bar-widget">
 
@@ -53,18 +33,34 @@
 
 							
 						</div>
-					</div>
+					<!-- 	<div class="course-details-item">
+							<div class="course-single-pic mb30">
+								<img src="{{tix.images[0]}}" alt="">
+							</div>
+							<div class="course-single-text">
+								<div class="course-title mt10 headline relative-position">
+									<h3><a > <b>{{tix.tittle}} </b></a> <span class="trend-badge text-uppercase bold-font"><i class="fas fa-bolt"></i> {{tix.modules.length}} modulos</span></h3>
+								</div>
+								<div class="course-details-content">
+									<p>{{tix.description}}</p>
+									
+								</div>
 
+								
+							</div>
+						</div> -->
+						<!-- /course-details -->
+						 <youtube-player
+      [videoId]="id"
+      (ready)="savePlayer($event)"
+      (change)="onStateChange($event)"
+    ></youtube-player>
+						
 
-				</div>
-				
-			</div>
-		</section>
+						</div>			
+						</div>
 
-		<section id="latest-area" class="latest-area-section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-6" >
 						<div class="affiliate-market-guide mb65">
 							<div class="section-title-2 mb20 headline text-left">
 								<h2><span>Modulos del curso</span></h2>
@@ -74,11 +70,18 @@
 								<div id="accordion" class="panel-group">
 									<div class="panel" *ngFor="let module of tix.modules;let i = index" (click)="go(module.link)">
 										<div class="panel-title" id="headingOne">
-											<div class="ac-head">
+											<div class="video-play-btn text-center gradient-bg" style="margin-left: 0px;">
+													<a class="popup-with-zoom-anim" (click)="go(module.link)"><i class="fas fa-play"></i>
+													</a>
+												</div>
+											<div class="ac-head" style="margin-left: 53px;">
 												
 												
+
 												<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-													<span>{{i+1}}</span>	{{module.tittle}}
+
+													<span>{{i+1}}</span>
+													{{module.tittle}}
 												</button>
 												
 
@@ -97,46 +100,19 @@
 												</a>
 											</div>
 										</div> -->
-										<div class="latest-video-poster relative-position mb20">
-											<img src="assets/assetsmanu/img/banner/v-1.jpg" alt="">
-											<div class="video-play-btn text-center gradient-bg">
-												<a class="popup-with-zoom-anim" (click)="go(module.link)"><i class="fas fa-play"></i>
-													{{module.link}}
-												</a>
-												
-											</div>
-										</div>
+									
 									</div>
 								
 								</div>
 							</div>
 						</div>
-						<!-- /market guide -->
 					</div>
 
 
 				</div>
-				<!-- <div class="row">
-					
-					<div class="col-md-4">
-						<div class="section-title-2 mb65 headline text-left">
-								<h2>Modulos del Curso <span>Video.</span></h2>
-							</div>
-						<div class="latest-area-content " >
-							
-							<div class="vidoe-text">
-								<h3 class="latest-title bold-font"><a href="index-1.html#">Titulo.</a></h3>
-								<p class="mb25">Por: Manuel Ramos</p>
-							</div>
-							<div class="latest-video-poster relative-position mb20">
-								<img src="assets/assetsmanu/img/banner/v-1.jpg" alt="">
-								<div class="video-play-btn text-center gradient-bg">
-									<a class="popup-with-zoom-anim" href="https://www.youtube.com/watch?v=-g4TnixUdSc"><i class="fas fa-play"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div> -->
+				
 			</div>
 		</section>
+
+	
 	
