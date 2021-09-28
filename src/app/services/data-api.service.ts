@@ -29,6 +29,11 @@ export class DataApiService {
   	private http: HttpClient, 
   	private authService:AuthService
   	) {}
+  
+  	headers : HttpHeaders = new HttpHeaders({
+  		"Content-Type":"application/json",
+  		Authorization: this.authService.getToken()
+  		});
 /*  	headers : HttpHeaders = new HttpHeaders({
   		"Content-Type":"application/json",
   		   "Access-Control-Allow-Headers" : "Content-Type",
