@@ -29,13 +29,13 @@ export class DataApiService {
   	private http: HttpClient, 
   	private authService:AuthService
   	) {}
-  	headers : HttpHeaders = new HttpHeaders({
+/*  	headers : HttpHeaders = new HttpHeaders({
   		"Content-Type":"application/json",
   		   "Access-Control-Allow-Headers" : "Content-Type",
             "Access-Control-Allow-Origin": "*",
             "Access-Control-Allow-Methods": "OPTIONS,POST,GET",
   		Authorization: this.authService.getToken()
-  		});
+  		});*/
   		saveSuscriber(suscriber :SuscriberInterface){
 		const url_api='https://db.buckapi.com:3062/api/suscriber';
 		return this.http
@@ -106,7 +106,7 @@ export class DataApiService {
 	sendMailSuscriptor(suscriber){
 		const url_api='https://email.buckapi.com:3019/Manuelramos.js';
 		return this.http
-		.post(url_api, suscriber,{headers: this.headers})
+		.post(url_api, suscriber)
 		.pipe(map(data => data));
 	}
 	
